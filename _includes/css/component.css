@@ -3,10 +3,11 @@
 	top: 0;
 	left: 0;
 	width: 100%;
-	background: #f6f6f6;
+	background: #FFF;
 	z-index: 10000;
 	height: 130px;
 	overflow: hidden;
+	box-shadow: 0 2px 4px rgba(0,0,0,0.2);
 	-webkit-transition: height 0.3s;
 	-moz-transition: height 0.3s;
 	transition: height 0.3s;
@@ -43,15 +44,14 @@
 }
 
 .cbp-af-header nav a {
-	color: #aaa;
-	font-weight: 700;
-	margin: 0 0 0 20px;
+	color: #576BB1;
+	font-weight: 200;
 	font-size: 1em;
 	text-decoration: none;
 }
 
 .cbp-af-header nav a:hover {
-	color: #333;
+	color: #EA573A;
 }
 
 /* Transitions and class for reduced height */
