@@ -86,7 +86,7 @@
 	position: absolute;
 	width: 30px;
 	height: 20px;
-	font-size: 20px;
+	font-size: 15px;
 	line-height: 20px;
 	font-weight: 700;
 	color: #ddd;
@@ -94,6 +94,7 @@
 	bottom: 5px;
 	right: 5px;
 	text-align: right;
+	font-family: 'Lato', sans-serif;
 }
 
 .fc-calendar .fc-row > div > span.fc-weekday {
@@ -121,9 +122,9 @@
 /* Custom calendar elements */
 
 .custom-calendar-wrap {
-	margin: 10px auto;
 	position: relative;
 	overflow: hidden;
+	margin-bottom: 1em;
 }
 
 .custom-inner {
@@ -154,10 +155,9 @@
 
 .custom-header {
 	background: #fff;
-	padding: 5px 10px 10px 20px;
-	height: 70px;
+	height: 60px;
 	position: relative;
-	border-top: 5px solid #ef4f69;
+	border-top: 5px solid #EA573A;
 	border-bottom: 1px solid #ddd;
 }
 
@@ -168,10 +168,13 @@
 }
 
 .custom-header h2 {
-	color: #495468;
+	color: #EA573A;
 	font-weight: 300;
 	font-size: 18px;
-	margin-top: 10px;
+	margin-top: 8px;
+	border: none;
+	padding: 0;
+	margin-bottom: 0;
 }
 
 .custom-header h3 {
@@ -182,7 +185,7 @@
 
 .custom-header nav span {
 	position: absolute;
-	top: 17px;
+	top: 12px;
 	width: 30px;
 	height: 30px;
 	color: transparent;
@@ -207,23 +210,23 @@
 }
 
 .custom-header nav span:before {
-	font-family: 'fontawesome-selected';
-	color: #ef4f69;
+	font-family: 'icomoon';
+	color: #EA573A;
 	position: absolute;
 	text-align: center;
 	width: 100%;
 }
 
 .custom-header nav span.custom-prev:before {
-	content: '\25c2';
+	content: '\e601';
 }
 
 .custom-header nav span.custom-next:before {
-	content: '\25b8';
+	content: '\e602';
 }
 
 .custom-header nav span:hover:before {
-	color: #495468;
+	color: #576BB1;
 }
 
 .custom-content-reveal {
@@ -250,11 +253,12 @@
 	width: 20px;
 	height: 20px;
 	text-align: center;
-	background: #ef4f69;
+	background: #EA573A;
 	box-shadow: 0 1px 1px rgba(0,0,0,0.1);
 	cursor: pointer;
 	line-height: 13px;
 	padding: 0;
+	font-family: 'Lato', sans-serif;
 }
 
 .custom-content-reveal span.custom-content-close:after {
@@ -279,7 +283,7 @@
 	padding: 20px;
 	background: #fff;
 	border-bottom: 1px solid #ddd;
-	border-top: 5px solid #ef4f69;
+	border-top: 5px solid #EA573A;
 	box-shadow: 0 1px rgba(255,255,255,0.9);
 	margin-bottom: 30px;
 }
@@ -299,19 +303,20 @@
 /* Modifications */
 
 .fc-calendar-container {
-	height: 400px;
+	height: 300px;
 	width: auto;
-	padding: 30px;
+	padding: 1em;
 	background: #f6f6f6;
 	box-shadow: inset 0 1px rgba(255,255,255,0.8);
 }
 
 .fc-calendar .fc-head {
 	background: transparent;
-	color: #ef4f69;
+	color: #EA573A;
 	font-weight: bold;
 	text-transform: uppercase;
 	font-size: 12px;
+	font-family: 'Lato', sans-serif;
 }
 
 .fc-calendar .fc-row > div {
@@ -334,7 +339,7 @@
 }
 
 .fc-calendar .fc-row > div.fc-today {
-	background: #ef4f69;
+	background: #EA573A;
 	box-shadow: inset 0 -1px 1px rgba(0,0,0,0.1);
 }
 
@@ -349,7 +354,7 @@
 	width: 20px;
 	margin-left: -10px;
 	position: absolute;
-	color: #DDD;
+	color: #EA573A;
 	font-size: 70px;
 	line-height: 20px;
 	left: 50%;
@@ -361,7 +366,7 @@
 }
 
 .fc-calendar .fc-row > div.fc-content:hover:after{
-	color: #ef4f69;
+	color: #576BB1;
 }
 
 .fc-calendar .fc-row > div.fc-today.fc-content:hover:after{
@@ -450,6 +455,7 @@ h2 {
   letter-spacing: 0.5px;
   border-bottom: 2px solid;
   padding-bottom: 0.1em;
+  margin-bottom: 1em;
 }
 
 h3 {
@@ -461,44 +467,42 @@ color: #6FA816;
 letter-spacing: 2px;
 }
 
-h3 p {
-font-family: 'Merriweather', serif;
-text-transform: none;
-margin: 0;
-font-size: 0.45em;
-font-weight: 100;
-letter-spacing: 1px;
-}
-
 .body {
 font-family: 'Merriweather', serif;
 font-weight: 300;
 font-size: 1em;
 margin: 0;
 padding-bottom: 1em;
+text-align: justify;
 }
 
 .body:last-child {
 padding-bottom: 0;
 }
 
+.bold {
+font-family: 'Merriweather', serif;
+font-weight: 600;
+font-size: 1em;
+margin: 0;
+}
+
 .body-link {
-	padding-top: 3em;
-}
-
-.body-link a {
-color: #6FA816;
+color: #576BB1;
 text-decoration: none;
-text-transform: uppercase;
-font-family: 'Lato', sans-serif;
-border: solid 1px;
-padding: 1em;
-transition: all 0.8s ease;
+transition: all 0.8s linear;
 }
 
-.body-link a:hover {
-color: #FFF;
-background-color: #6FA816;
+.body-link:hover {
+color: #EA573A;
+}
+
+.indent {
+	padding-left: 2em;
+}
+
+.content {
+	padding: 1em 2em 0!important;
 }
 
 /* HEADER & NAVIGATION */
@@ -673,8 +677,20 @@ display: none;
 
 /*UPCOMING DATES*/
 .date {
-	background-color: red;
-	padding: 0.5em;
+	background-color: #EA573A;
+  padding: 0.5em;
+  color: #FFF;
+  font-family: 'Lato', sans-serif;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+.past {
+	text-decoration: line-through;
+}
+
+.past-text {
+	color: #EA573A;
 }
 
 .events {
@@ -684,6 +700,8 @@ display: none;
 .events:last-child {
 padding-bottom: 0;
 }
+
+/* ---------------- ---------------------- */
 
 /* FOOTER */
 footer {
@@ -714,7 +732,7 @@ footer {
 		background-color: rgba(0,0,0,0.65);
 		position: relative;
 		text-align: center;
-		padding: 110px 0;
+		padding: 111px 0;
 	}
 
 	.cbp-af-inner nav .dot {
@@ -984,6 +1002,7 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,su
   height:350px;
   overflow:scroll;
 }
+
 .ls-preloader {  
   background: url(../images/loading.gif) #f2f2f2 no-repeat center 50%;
   opacity:1;
@@ -1002,7 +1021,6 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,su
   position: relative;
 }
 .liquid-slider {
-  background: #f2f2f2;
   width: 600px;
   margin: 0 auto;
   float: left;
@@ -1032,6 +1050,12 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,su
   display: block;
 }
 
+.title {
+  border: none;
+  padding: 0;
+  margin-bottom: 0.5em;
+}
+
 /*** Panels ***/
 .liquid-slider .ls-panel {  
   width: 600px;
@@ -1047,21 +1071,23 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,su
 .ls-nav {
   overflow:hidden;
   clear:both;
+    border-bottom: 1px solid #EA573A;
 }
 .ls-nav a {
-  background: #d8d8d8;
-  color: #333333;
-  margin-right: 1px;
+  color: #EA573A;
   padding: 10px 15px;  
   outline:0;
+  border-right: 1px solid;
+    font-family: 'Lato', sans-serif;
 }
 .ls-nav a:hover {
-  background: #f2f2f2;
-  color: #333333;
+  background: #EA573A;
+  color: #FFF;
   text-shadow: none;
 }
 .ls-nav .current a {
-  background: #f2f2f2;
+  background: #EA573A;
+  color: #FFF;
 }
 .currentCrossLink {
   font-weight: bold;

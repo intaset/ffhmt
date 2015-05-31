@@ -65,6 +65,7 @@ h2 {
   letter-spacing: 0.5px;
   border-bottom: 2px solid;
   padding-bottom: 0.1em;
+  margin-bottom: 1em;
 }
 
 h3 {
@@ -76,44 +77,42 @@ color: #6FA816;
 letter-spacing: 2px;
 }
 
-h3 p {
-font-family: 'Merriweather', serif;
-text-transform: none;
-margin: 0;
-font-size: 0.45em;
-font-weight: 100;
-letter-spacing: 1px;
-}
-
 .body {
 font-family: 'Merriweather', serif;
 font-weight: 300;
 font-size: 1em;
 margin: 0;
 padding-bottom: 1em;
+text-align: justify;
 }
 
 .body:last-child {
 padding-bottom: 0;
 }
 
+.bold {
+font-family: 'Merriweather', serif;
+font-weight: 600;
+font-size: 1em;
+margin: 0;
+}
+
 .body-link {
-	padding-top: 3em;
-}
-
-.body-link a {
-color: #6FA816;
+color: #576BB1;
 text-decoration: none;
-text-transform: uppercase;
-font-family: 'Lato', sans-serif;
-border: solid 1px;
-padding: 1em;
-transition: all 0.8s ease;
+transition: all 0.8s linear;
 }
 
-.body-link a:hover {
-color: #FFF;
-background-color: #6FA816;
+.body-link:hover {
+color: #EA573A;
+}
+
+.indent {
+	padding-left: 2em;
+}
+
+.content {
+	padding: 1em 2em 0!important;
 }
 
 /* HEADER & NAVIGATION */
@@ -288,8 +287,20 @@ display: none;
 
 /*UPCOMING DATES*/
 .date {
-	background-color: red;
-	padding: 0.5em;
+	background-color: #EA573A;
+  padding: 0.5em;
+  color: #FFF;
+  font-family: 'Lato', sans-serif;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+.past {
+	text-decoration: line-through;
+}
+
+.past-text {
+	color: #EA573A;
 }
 
 .events {
@@ -299,6 +310,8 @@ display: none;
 .events:last-child {
 padding-bottom: 0;
 }
+
+/* ---------------- ---------------------- */
 
 /* FOOTER */
 footer {
@@ -329,7 +342,7 @@ footer {
 		background-color: rgba(0,0,0,0.65);
 		position: relative;
 		text-align: center;
-		padding: 110px 0;
+		padding: 111px 0;
 	}
 
 	.cbp-af-inner nav .dot {

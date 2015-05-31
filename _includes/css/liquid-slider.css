@@ -9,6 +9,7 @@
   height:350px;
   overflow:scroll;
 }
+
 .ls-preloader {  
   background: url(../images/loading.gif) #f2f2f2 no-repeat center 50%;
   opacity:1;
@@ -27,7 +28,6 @@
   position: relative;
 }
 .liquid-slider {
-  background: #f2f2f2;
   width: 600px;
   margin: 0 auto;
   float: left;
@@ -57,6 +57,12 @@
   display: block;
 }
 
+.title {
+  border: none;
+  padding: 0;
+  margin-bottom: 0.5em;
+}
+
 /*** Panels ***/
 .liquid-slider .ls-panel {  
   width: 600px;
@@ -72,21 +78,23 @@
 .ls-nav {
   overflow:hidden;
   clear:both;
+    border-bottom: 1px solid #EA573A;
 }
 .ls-nav a {
-  background: #d8d8d8;
-  color: #333333;
-  margin-right: 1px;
+  color: #EA573A;
   padding: 10px 15px;  
   outline:0;
+  border-right: 1px solid;
+    font-family: 'Lato', sans-serif;
 }
 .ls-nav a:hover {
-  background: #f2f2f2;
-  color: #333333;
+  background: #EA573A;
+  color: #FFF;
   text-shadow: none;
 }
 .ls-nav .current a {
-  background: #f2f2f2;
+  background: #EA573A;
+  color: #FFF;
 }
 .currentCrossLink {
   font-weight: bold;
