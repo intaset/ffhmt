@@ -438,11 +438,32 @@ body {
 }
 
 /* BASE STYLES */
+.main-content {
+	padding: 1em;
+}
+
+.content {
+	padding: 1em 2em 0!important;
+}
+
 .flex-img {
 	display: block;
 	width: 100%;
 }
 
+.flex-sponsor {
+	width: 30%;
+	padding: 1em;
+}
+
+.flex-sponsor1 {
+	width: 50%;
+}
+
+.sponsor {
+	text-align: center;
+	padding: 2em 1em;
+}
 
 h2 {
   font-family: 'Lato', sans-serif;
@@ -497,12 +518,63 @@ transition: all 0.8s linear;
 color: #EA573A;
 }
 
+.center {
+	text-align: center;
+	padding: 0;
+}
+
 .indent {
 	padding-left: 2em;
 }
 
-.content {
-	padding: 1em 2em 0!important;
+ul {
+	margin: 0;
+  padding: 0 0 1em 3em;
+}
+
+ul li {
+	padding-bottom: 0.5em;
+}
+
+blockquote {
+  margin: 0 auto;
+  padding: 1em;
+  background-color: #f6f6f6;
+  width: 75%;
+  margin-bottom: 1em;
+  font-style: italic;
+}
+
+.content table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+}
+
+.content tr {
+  border-bottom: 1px solid #576BB1;
+  height: 60px;
+}
+
+th {
+  text-align: left;
+}
+
+.date-title {
+  border-right: 1px solid #576BB1;
+}
+
+.imp-date {
+  text-align: right;
+}
+
+.reg {
+  padding-left: 1em;
+}
+
+.reg .right {
+  display: inline-block;
+  float: right;
 }
 
 /* HEADER & NAVIGATION */
@@ -569,15 +641,6 @@ padding: 43px 0 0;
   color: #FFF;
   text-align: right;
   padding: 3px 0;
-}
-
-.search .body {
-color: #FFF;
-padding: 1em;
-margin-top: 0.5em;
-height: 26px;
-font-size: 0.8em;
-text-align: right;
 }
 
 input#gsc-i-id1, input#gsc-i-id2 {
@@ -701,11 +764,49 @@ display: none;
 padding-bottom: 0;
 }
 
-/* ---------------- ---------------------- */
-
 /* FOOTER */
 footer {
 	text-align: center;
+	background-color: #f6f6f6;
+	color: #000;
+	padding: 3em;
+}
+
+footer .body {
+	text-align: center;
+}
+
+footer a {
+	font-family: 'Lato', sans-serif;
+	text-transform: uppercase;
+	color: #576BB1;
+	text-decoration: none;
+	transition: all 0.8s ease;
+}
+
+footer a:hover {
+	color: #EA573A;
+}
+
+.copyright {
+  font-size: 0.8em;
+  padding: 1em 0 0;
+  text-transform: uppercase;
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 1px;
+}
+
+/* ---------------- ---------------------- */
+/* Papers */
+.topics {
+  overflow: hidden;
+}
+
+.topics li {
+  float: left;
+  width: 50%;
+  padding-right: 3em;
+  padding-bottom: 0;
 }
 
 /* 533 PX */
@@ -746,6 +847,12 @@ footer {
 	}
 }
 
+/* 1920 PX */
+@media only screen and (min-width: 120em) {
+	.bg {
+  padding: 194px 0;
+}
+}
 .grid {
   letter-spacing: -0.31em;
   *letter-spacing: normal;
@@ -938,6 +1045,54 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,su
 
 .cbp-af-header.cbp-af-header-shrink h1 {
 	font-size: 2em;
+}
+
+.cbp-af-header ul {
+	list-style:none;
+	position:relative;
+	float:left;
+	margin:0;
+	padding:0
+}
+
+.cbp-af-header li {
+position:relative;
+	float:left;
+	margin:0;
+	padding:0
+}
+
+.cbp-af-header ul ul
+{
+	display:none;
+	position:absolute;
+	top:100%;
+	left:0;
+	background:#fff;
+	padding:0
+}
+
+.cbp-af-header ul ul li
+{
+	float:none;
+	width:200px
+}
+
+.cbp-af-header ul ul a
+{
+	line-height:120%;
+	padding:10px 15px
+}
+
+.cbp-af-header ul ul ul
+{
+	top:0;
+	left:100%
+}
+
+.cbp-af-header ul li:hover > ul
+{
+	display:block
 }
 
 /* Example Media Queries */
