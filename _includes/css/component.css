@@ -94,39 +94,6 @@ position:relative;
 	padding:0
 }
 
-.cbp-af-header ul ul
-{
-	display:none;
-	position:absolute;
-	top:100%;
-	left:0;
-	background:#fff;
-	padding:0
-}
-
-.cbp-af-header ul ul li
-{
-	float:none;
-	width:200px
-}
-
-.cbp-af-header ul ul a
-{
-	line-height:120%;
-	padding:10px 15px
-}
-
-.cbp-af-header ul ul ul
-{
-	top:0;
-	left:100%
-}
-
-.cbp-af-header ul li:hover > ul
-{
-	display:block
-}
-
 /* Example Media Queries */
 @media screen and (max-width: 55em) {
 	
