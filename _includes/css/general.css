@@ -128,6 +128,10 @@ transition: all 0.8s linear;
 color: #EA573A;
 }
 
+.allcaps {
+	text-transform: uppercase;
+}
+
 .center {
 	text-align: center;
 	padding: 0;
@@ -144,6 +148,7 @@ ul {
 
 ul li {
 	padding-bottom: 0.5em;
+	font-weight: 100;
 }
 
 blockquote {
@@ -419,6 +424,27 @@ footer a:hover {
   padding-bottom: 0;
 }
 
+/* REGISTRATION FORM */
+.registration tr {
+	border-bottom: 0;
+}
+
+/* ACCOMMODATION TABLE */
+.accommodation table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+}
+
+.accommodation tr {
+  height: 60px;
+}
+
+.accommodation td {
+	border: 1px solid #576BB1;
+	padding: 0 1em;
+}
+
 /* 533 PX */
 @media only screen and (min-width: 33em) {
 	.desktop {
@@ -456,6 +482,7 @@ footer a:hover {
   		padding: 0 0.5em;
 	}
 }
+
 
 /* 1920 PX */
 @media only screen and (min-width: 119em) {
