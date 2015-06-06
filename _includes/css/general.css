@@ -24,11 +24,14 @@
 html {
   font: normal 100%/1.4 'Merriweather' sans-serif;
   background-color: #FFF;
+  overflow-x: hidden!important;
 }
 
 body {
   margin: 0 auto;
   padding: 0;
+  overflow-x: hidden;
+	overflow: hidden/9;
 }
 
 .flex-logo {
@@ -192,6 +195,26 @@ th {
   float: right;
 }
 
+.top {
+	display: block;
+	text-align: right;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #EA573A;
+	transition: all 0.8s ease;
+}
+
+.top:hover {
+	color: #576BB1;
+}
+
+.top:before {
+  content: '^';
+  font-size: 1.5em;
+  vertical-align: middle;
+  font-family: 'Lato', sans-serif;
+}
+
 /* HEADER & NAVIGATION */
 h1 {
 	font-family: 'Lato', sans-serif;
@@ -212,6 +235,13 @@ h1 {
   margin: 0;
   color: #EA573A;
   letter-spacing: 7px;
+}
+
+.bg {
+	background-color: rgba(0,0,0,0.65);
+	position: inherit;
+	text-align: center;
+	padding: 111px 0;
 }
 
 .bg-link {
@@ -239,6 +269,149 @@ h1 {
 	margin: 0;
 	padding: 0 1em;
 }
+
+/* MOB MENU */
+nav#slide-menu {
+	position: fixed;
+	top: 0;
+	right: -141px;
+	bottom: 0;
+	display: block;
+	float: left;
+	width: 100%;
+	max-width: 141px;
+	height: 100%;
+	background-color: #AB1917;
+	overflow-x: hidden;
+overflow-y: scroll;
+  z-index: 99999;
+
+	-moz-transition: all 300ms;
+	-webkit-transition: all 300ms;
+	transition: all 300ms;
+}
+	#slide-menu ul {
+		display: block;
+		margin: 0px;
+		padding: 0;
+		list-style: none;
+		opacity: 0.5;
+
+		-moz-transition: all 300ms;
+		-webkit-transition: all 300ms;
+		transition: all 300ms;
+}
+		li {
+			cursor: pointer;
+}
+
+	#slide-menu a {
+		font-family: 'Roboto Condensed', sans-serif;
+    display: block;
+    text-align: left;
+    outline: none;
+    box-shadow: inset 0 -1px rgba(0,0,0,0.2);
+    color: #FFF;
+    text-transform: uppercase;
+    text-shadow: 0 0 1px rgba(255,255,255,0.1);
+    letter-spacing: 1px;
+    font-weight: 400;
+    padding: 1.2em;
+    cursor: default;
+    text-decoration: none;
+    font-size: 0.8em;
+    -webkit-transition: background 0.3s, box-shadow 0.3s;
+    transition: background 0.3s, box-shadow 0.3s;
+	}
+
+#slide-menu a:hover {
+    background: rgba(0,0,0,0.2);
+    box-shadow: inset 0 -1px rgba(0,0,0,0);
+    color: #fff;
+}
+
+#slide-menu:first-child a {
+    box-shadow: inset 0 -1px rgba(0,0,0,0.2), inset 0 0px rgba(0,0,0,0.2);
+}
+
+body.menu-active nav#slide-menu { right: 0px; }
+body.menu-active nav#slide-menu ul { right: 0px; opacity: 1; }
+
+/*
+  Content
+*/
+
+div#content {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	overflow: scroll;
+
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+
+	-moz-transition: all 300ms;
+	-webkit-transition: all 300ms;
+	transition: all 300ms;
+}
+
+	div.menu-trigger {
+		position: fixed;
+top: 6px;
+right: 15px;
+cursor: pointer;
+font-size: 40px;
+-moz-transition: all 300ms;
+-webkit-transition: all 300ms;
+transition: all 300ms;
+}
+		.menu-trigger:before { 
+			content: '\e603';
+			display: inline-block;
+			width: 36px;
+			height: 36px;
+			color: #AB1917;
+			font-family: "icomoon";
+			font-style: normal;
+			font-size: 1.2em;
+			font-weight: normal;
+			font-variant: normal;
+			text-align: center;
+			text-transform: none;
+			line-height: 36px;
+			-moz-transition: all 300ms;
+-webkit-transition: all 300ms;
+transition: all 300ms;
+		}
+
+		.menu-active .menu-trigger:before { 
+			display: none;
+		}
+
+		.menu-active .menu-trigger:after { 
+			content: '\e602';
+			display: inline-block;
+			width: 36px;
+			height: 36px;
+			color: #AB1917;
+			font-family: "icomoon";
+			font-style: normal;
+			font-size: 1.2em;
+			font-weight: normal;
+			font-variant: normal;
+			text-align: center;
+			text-transform: none;
+			line-height: 36px;
+			-moz-transition: all 300ms;
+-webkit-transition: all 300ms;
+transition: all 300ms;
+		}
+
+body.menu-active div#content { right: 141px;}
+body.menu-active div#content .menu-trigger { right: 150px; }
 
 /* SEARCH BAR */
 form.gsc-search-box {
@@ -429,6 +602,20 @@ footer a:hover {
 	border-bottom: 0;
 }
 
+input[type="button"], input[type="reset"], input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+  background-color: #576BB1;
+  font-family: 'Lato', sans-serif;
+  text-transform: uppercase;
+  color: #FFF;
+  font-weight: 400;
+  letter-spacing: 1px;
+  padding: 0.5em;
+  font-size: 1em;
+  border: 0;
+}
+
 /* ACCOMMODATION TABLE */
 .accommodation table {
   border-collapse: collapse;
@@ -443,6 +630,11 @@ footer a:hover {
 .accommodation td {
 	border: 1px solid #576BB1;
 	padding: 0 1em;
+}
+
+/* Contact Us */
+.contact tr {
+	border-bottom: 0;
 }
 
 /* 533 PX */
