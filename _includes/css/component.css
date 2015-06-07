@@ -5,7 +5,7 @@
 	width: 100%;
 	background: #FFF;
 	z-index: 10000;
-	height: 130px;
+	height: 114px;
 	overflow: hidden;
 	box-shadow: 0 2px 4px rgba(0,0,0,0.2);
 	-webkit-transition: height 0.3s;
@@ -15,7 +15,6 @@
 
 .cbp-af-header .cbp-af-inner {
 	margin: 0 auto;
-	padding: 0 2em;
 }
 
 .cbp-af-header h1,

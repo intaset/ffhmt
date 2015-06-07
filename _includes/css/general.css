@@ -37,7 +37,7 @@ body {
 .flex-logo {
 	width: 100%;
 	vertical-align: text-bottom;
-	max-width: 139px;
+	max-width: 120px;
 	padding: 1em;
 	float: left;
 }
@@ -56,7 +56,7 @@ body {
 }
 
 .content {
-	padding: 1em 2em 0!important;
+	padding: 1em 0em 0!important;
 }
 
 .flex-img {
@@ -65,23 +65,23 @@ body {
 }
 
 .flex-sponsor {
-	width: 30%;
+	width: 100%;
 	padding: 1em;
 }
 
 .flex-sponsor1 {
-	width: 50%;
+	width: 100%;
 }
 
 .sponsor {
 	text-align: center;
-	padding: 2em 1em;
+	padding: 1em 0em;
 }
 
 h2 {
   font-family: 'Lato', sans-serif;
   font-weight: 400;
-  font-size: 1.5em;
+  font-size: 0.84em;
   margin: 0;
   color: #576BB1;
   text-transform: uppercase;
@@ -131,6 +131,10 @@ transition: all 0.8s linear;
 color: #EA573A;
 }
 
+.mob-link {
+	font-size: 0.83em;
+}
+
 .allcaps {
 	text-transform: uppercase;
 }
@@ -141,7 +145,7 @@ color: #EA573A;
 }
 
 .indent {
-	padding-left: 2em;
+	padding-left: 1em;
 }
 
 ul {
@@ -220,49 +224,51 @@ h1 {
 	font-family: 'Lato', sans-serif;
 	text-transform: uppercase;
 	font-weight: 300;
-	padding: 1em 0.5em 0;
-	font-size: 1.8em!important;
+	padding: 0.5em 0.5em 1em;
+    font-size: 1.25em!important;
 	margin: 0!important;
-	color: #FFF;
+	color: #576BB1;
 }
 
 .subhead {
   font-family: 'Lato', sans-serif;
   text-transform: uppercase;
   font-weight: 500;
-  padding: 0 1em 3em;
+  padding: 0 1em 1em;
   font-size: 1em!important;
   margin: 0;
   color: #EA573A;
-  letter-spacing: 7px;
+  letter-spacing: 4px;
 }
 
 .bg {
-	background-color: rgba(0,0,0,0.65);
-	position: inherit;
-	text-align: center;
-	padding: 111px 0;
+  background-color: #f6f6f6;
+  text-align: center;
+    padding: 125px 0 2em;
 }
 
 .bg-link {
-	border: 1px solid #FFF;
+	border: 1px solid;
 	padding: 0.5em;
-	color: #FFF;
+	color: #EA573A;
 	text-decoration: none;
 	font-family: 'Lato', sans-serif;
 	text-transform: uppercase;
 	font-weight: 300;
-	font-size: 1.5em;
+	font-size: 1em;
+	display: block;
+	margin: 1em;
 	transition: all 0.8s ease;
 }
 
 .bg-link:hover {
 	background-color: #576BB1;
 	border: 1px solid #576BB1;
+	color: #FFF;
 }
 
 .dot {
-	display: inline-block;
+	display: none;
 	color: #EA573A;
 	font-size: 2em;
 	vertical-align: middle;
@@ -270,7 +276,18 @@ h1 {
 	padding: 0 1em;
 }
 
+
 /* MOB MENU */
+#slide-menu h1 {
+	font-family: 'Lato', sans-serif;
+	text-transform: uppercase;
+	font-weight: 300;
+	padding: 0.5em 0.5em 1em;
+  font-size: 1.5em!important;
+	margin: 0!important;
+	color: #FFF;
+}
+
 nav#slide-menu {
 	position: fixed;
 	top: 0;
@@ -281,7 +298,7 @@ nav#slide-menu {
 	width: 100%;
 	max-width: 141px;
 	height: 100%;
-	background-color: #AB1917;
+	  background-color: #EA573A;
 	overflow-x: hidden;
 overflow-y: scroll;
   z-index: 99999;
@@ -301,8 +318,9 @@ overflow-y: scroll;
 		-webkit-transition: all 300ms;
 		transition: all 300ms;
 }
-		li {
+		#slide-menu li {
 			cursor: pointer;
+			padding-bottom: 0;
 }
 
 	#slide-menu a {
@@ -319,7 +337,7 @@ overflow-y: scroll;
     padding: 1.2em;
     cursor: default;
     text-decoration: none;
-    font-size: 0.8em;
+    font-size: 0.7em;
     -webkit-transition: background 0.3s, box-shadow 0.3s;
     transition: background 0.3s, box-shadow 0.3s;
 	}
@@ -360,10 +378,11 @@ div#content {
 
 	div.menu-trigger {
 		position: fixed;
-top: 6px;
-right: 15px;
+top: 10px;
+right: 20px;
 cursor: pointer;
 font-size: 40px;
+line-height: 0;
 -moz-transition: all 300ms;
 -webkit-transition: all 300ms;
 transition: all 300ms;
@@ -373,7 +392,7 @@ transition: all 300ms;
 			display: inline-block;
 			width: 36px;
 			height: 36px;
-			color: #AB1917;
+			color: #576BB1;
 			font-family: "icomoon";
 			font-style: normal;
 			font-size: 1.2em;
@@ -391,12 +410,16 @@ transition: all 300ms;
 			display: none;
 		}
 
+		.menu-trigger:hover:before { 
+			color: #EA573A;
+		}
+
 		.menu-active .menu-trigger:after { 
 			content: '\e602';
 			display: inline-block;
 			width: 36px;
 			height: 36px;
-			color: #AB1917;
+			color: #EA573A;
 			font-family: "icomoon";
 			font-style: normal;
 			font-size: 1.2em;
@@ -408,6 +431,10 @@ transition: all 300ms;
 			-moz-transition: all 300ms;
 -webkit-transition: all 300ms;
 transition: all 300ms;
+		}
+
+		.menu-trigger:hover:after {
+			color: #576BB1;
 		}
 
 body.menu-active div#content { right: 141px;}
@@ -422,12 +449,12 @@ line-height: 0;
 }
 
 .searchbox {
-padding: 43px 0 0;
+padding: 0;
 }
 
 .searchbox .body {
-  color: #FFF;
-  text-align: right;
+  color: #576BB1;
+  text-align: center;
   padding: 3px 0;
 }
 
@@ -557,7 +584,7 @@ footer {
 	text-align: center;
 	background-color: #f6f6f6;
 	color: #000;
-	padding: 3em;
+	padding: 1em;
 }
 
 footer .body {
@@ -578,13 +605,24 @@ footer a:hover {
 
 .copyright {
   font-size: 0.8em;
-  padding: 1em 0 0;
+  padding: 1em 0 1em;
   text-transform: uppercase;
   font-family: 'Lato', sans-serif;
   letter-spacing: 1px;
 }
 
+.copyright1 {
+  font-size: 0.9em;
+  padding: 0;
+}
+
 /* ---------------- ---------------------- */
+/* ACCOMMODATION */
+.ls-select-box:hover {
+	background-color: #EA573A;
+	color: #FFF;
+}
+
 /* Papers */
 .topics {
   overflow: hidden;
@@ -635,6 +673,170 @@ input[type="button"], input[type="reset"], input[type="submit"] {
 /* Contact Us */
 .contact tr {
 	border-bottom: 0;
+}
+
+/* 213 PX / LG OPTIMUS ONE */
+@media only screen and (min-width: 13em) {
+div.menu-trigger {
+top: 14px;
+right: 12px;
+}
+
+nav#slide-menu {
+right: -170px;
+max-width: 170px;
+}
+
+body.menu-active div#content {
+right: 170px;
+}
+
+body.menu-active div#content .menu-trigger {
+right: 180px;
+}
+
+/* IE9 SPECIFICS */
+.ie9 nav#slide-menu {
+    right: -187px;
+}
+
+.ie9 body.menu-active div#content {
+    right: 187px;
+}
+
+.ie9 body.menu-active div#content .menu-trigger {
+    right: 200px;
+}
+
+.ie9 table {
+	width: 87%;
+}
+}
+
+/* IE MOBILE NAV*/
+@media only screen and (min-width: 15em) and (max-width: 20em) {
+	.ie9 nav#slide-menu {
+    right: -290px;
+    width: 100%;
+}
+
+.ie9 body.menu-active div#content {
+    right: 284px;
+}
+
+.ie9 body.menu-active div#content .menu-trigger {
+    right: 300px;
+}
+}
+
+/* 240 PX */
+@media only screen and (min-width: 15em) {
+	h2 {
+	  font-size: 1.25em;
+	}
+
+	.panel-wrapper {  
+	  padding: 1em 2em!important;
+	}
+
+	.mob-link {
+  font-size: inherit;
+}
+
+nav#slide-menu {
+right: -192px;
+max-width: 192px;
+}
+
+body.menu-active div#content {
+right: 192px;
+}
+
+body.menu-active div#content .menu-trigger {
+right: 205px;
+}
+
+@-moz-document url-prefix() {
+	nav#slide-menu {
+right: -284px;
+width: 100%;
+}
+
+body.menu-active div#content {
+right: 284px;
+}
+
+body.menu-active div#content .menu-trigger {
+right: 296px;
+}
+}
+
+/* IE9 SPECIFICS */
+.ie9 .gsst_a {
+    display: none;
+}
+}
+
+/* 320 PX / APPLE IPHONE 3GS */
+@media only screen and (min-width: 20em) {
+nav#slide-menu {
+right: -284px;
+width: 100%;
+max-width: 284px;
+}
+
+body.menu-active div#content {
+right: 284px;
+}
+
+body.menu-active div#content .menu-trigger {
+right: 294px;
+}
+
+div.menu-trigger {
+right: 20px;
+}
+
+#slide-menu a {
+  font-size: 1em;
+}
+
+#slide-menu h1 {
+  padding: 0.6em;
+  font-size: 2em!important;
+}
+
+h1 {
+  padding: 1em 1em 0.5em;
+  font-size: 1.5em!important;
+ }
+
+ .bg-link {
+  font-size: 1.3em;
+}
+
+.searchbox .body {
+  padding: 10px 0;
+}
+
+.flex-sponsor {
+  width: 49%;
+  display: inline-block;
+}
+
+/* IE9 SPECIFICS */
+.ie9 nav#slide-menu {
+right: -284px;
+width: 100%;
+}
+
+.ie9 body.menu-active div#content {
+right: 284px;
+}
+
+.ie9 body.menu-active div#content .menu-trigger {
+right: 294px;
+}
 }
 
 /* 533 PX */
