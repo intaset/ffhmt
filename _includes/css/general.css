@@ -175,7 +175,6 @@ blockquote {
 
 .content tr {
   border-bottom: 1px solid #576BB1;
-  height: 60px;
 }
 
 th {
@@ -183,15 +182,18 @@ th {
 }
 
 .date-title {
-  border-right: 1px solid #576BB1;
+  display: block;
+  padding: 0.5em;
+  background-color: #576BB1;
+  color: #FFF;
 }
 
 .imp-date {
-  text-align: right;
+  padding: 0.5em;
 }
 
 .reg {
-  padding-left: 1em;
+  padding: 0.5em;
 }
 
 .reg .right {
@@ -629,13 +631,16 @@ footer a:hover {
 }
 
 .topics li {
-  float: left;
-  width: 50%;
-  padding-right: 3em;
   padding-bottom: 0;
 }
 
 /* REGISTRATION FORM */
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0;
+}
+
 .registration tr {
 	border-bottom: 0;
 }
@@ -652,6 +657,13 @@ input[type="button"], input[type="reset"], input[type="submit"] {
   padding: 0.5em;
   font-size: 1em;
   border: 0;
+  margin-top: 1em;
+  transition: all 0.8s ease;
+  width: 40%;
+}
+
+input[type="reset"]:hover, input[type="submit"]:hover {
+  background-color: #EA573A;
 }
 
 /* ACCOMMODATION TABLE */
@@ -670,9 +682,17 @@ input[type="button"], input[type="reset"], input[type="submit"] {
 	padding: 0 1em;
 }
 
+.bottom-border {
+	border-bottom: 1px solid #EA573A;
+}
+
 /* Contact Us */
 .contact tr {
 	border-bottom: 0;
+}
+
+.contact button, input, select, textarea {
+  width: 100%;
 }
 
 /* 213 PX / LG OPTIMUS ONE */
@@ -824,6 +844,14 @@ h1 {
   display: inline-block;
 }
 
+.content {
+  padding: 1em 0em 1em!important;
+}
+
+.panel-wrapper {
+  padding: 1em 3em!important;
+}
+
 /* IE9 SPECIFICS */
 .ie9 nav#slide-menu {
 right: -284px;
@@ -841,6 +869,24 @@ right: 294px;
 
 /* 533 PX */
 @media only screen and (min-width: 33em) {
+.main-content {
+  padding: 2em;
+}
+
+h2 {
+  font-size: 1.6em;
+}
+
+.indent {
+  padding-left: 2em;
+}
+
+footer {
+  padding: 2em;
+}
+}
+
+/*@media only screen and (min-width: 33em) {
 	.desktop {
 		display: block;
 	}
@@ -875,7 +921,14 @@ right: 294px;
   		color: #EA573A;
   		padding: 0 0.5em;
 	}
+
+	.topics li {
+  float: left;
+  width: 50%;
+  padding-right: 3em;
+  padding-bottom: 0;
 }
+}*/
 
 
 /* 1920 PX */
