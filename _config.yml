@@ -1,3 +1,3 @@
 markdown: redcarpet
-baseurl: /wealthmaxtor
+baseurl: /ffhmt
 exclude: ['README.md',]
