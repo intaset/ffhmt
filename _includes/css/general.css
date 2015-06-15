@@ -1037,6 +1037,11 @@ h2 {
   padding: 0.5em;
   text-align: right;
 }
+
+.ie9 .bg-img {
+		position: absolute;
+		width: 100%;
+	}
 }
 
 /* 1100 PX */
