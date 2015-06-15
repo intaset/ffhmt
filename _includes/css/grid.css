@@ -20,7 +20,7 @@
 .unit-spacer {
   padding: 8px;
 }
-@media only screen and (max-width: 38em) {
+@media only screen and (max-width: 63.9em) {
   .unit-s-hidden {
     display: none;
     visibility: hidden;
@@ -44,7 +44,7 @@
     width: 75%;
   }
 }
-@media only screen and (min-width: 38em) and (max-width: 60em) {
+/*@media only screen and (min-width: 64em) and (max-width: 60em) {
   .unit-m-hidden {
     display: none;
     visibility: hidden;
@@ -74,10 +74,10 @@
     width: 50%;
   }
   .unit-m-1-4-2 {
-    width: 6%;
+    width: 11%;
   }
-}
-@media only screen and (min-width: 60em) {
+}*/
+@media only screen and (min-width: 64em) {
   .unit-l-hidden {
     display: none;
     visibility: hidden;
@@ -107,6 +107,6 @@
     width: 50%;
   }
   .unit-l-1-4-2 {
-    width: 6%;
+    width: 10%;
   }
 }

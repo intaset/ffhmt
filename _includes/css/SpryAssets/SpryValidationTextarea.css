@@ -37,8 +37,8 @@
  
  /* When the widget is in the valid state the TEXTAREA has a green background applied on it. */
 .textareaValidState textarea, textarea.textareaValidState {
-	background-color:#EA573A;
-	  border: 0;
+	background-color: #EA573A;
+	border: 0;
 }
 
 /* When the widget is in an invalid state the TEXTAREA has a red background applied on it. */
