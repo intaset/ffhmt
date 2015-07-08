@@ -1721,7 +1721,7 @@ footer {
 
 	.cbp-af-header nav a {
   font-size: 0.6em!important;
-  padding: 1em 0.2em;
+  padding: 1em 0.1em;
 	}
 
 	.cbp-af-header nav a:hover {
@@ -1858,9 +1858,6 @@ footer form {
 }
 .reg {
   font-weight: 600;
-}
-.contact .body {
-  text-align: right;
 }
 }
 
