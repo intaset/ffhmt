@@ -419,7 +419,7 @@ transition: all 300ms;
 		}
 
 		.menu-active .menu-trigger:after { 
-			content: '\e602';
+			content: '\e600';
 			display: inline-block;
 			width: 36px;
 			height: 36px;
@@ -624,8 +624,13 @@ footer input[type="submit"]:hover, footer input[type="reset"]:hover {
   color: #FFF;
 }
 
+.contact td {
+	display: block;
+	width: 100%;
+}
+
 .contact .body {
-	text-align: right;
+	text-align: left;
 }
 
 .copyright {
@@ -932,6 +937,15 @@ h2 {
 footer {
   padding: 2em;
 }
+
+.contact table {
+  width: 100%;
+}
+
+.contact td {
+  display: inline-block;
+  width: 50%;
+}
 }
 
 /* 768 PX */
@@ -974,6 +988,15 @@ footer {
 		padding: 114px 0 0;
 	}
 
+	div#content {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+}
+
 	.bg-img {
 		position: absolute;
 	}
@@ -1015,7 +1038,7 @@ footer {
 	.cbp-af-inner nav .dot {
   		font-size: 1em;
   		color: #EA573A;
-  		padding: 0 0.5em;
+  		padding: 0 0.4em;
 	}
 
 	.cbp-af-header nav a {
@@ -1090,6 +1113,10 @@ footer form {
   float: right;
 }
 
+.contact {
+  padding: 0 0em 0 2em;
+}
+
 .ie9 .bg-img {
 		position: absolute;
 		width: 100%;
@@ -1128,6 +1155,10 @@ footer form {
   max-height: 366px;
 }
 	}
+
+	.cbp-af-inner nav .dot {
+  padding: 0 0.3em;
+}
 }
 
 /* 1280 PX */
@@ -1146,6 +1177,9 @@ footer form {
 }
 .reg {
   font-weight: 600;
+}
+.contact .body {
+  text-align: right;
 }
 }
 

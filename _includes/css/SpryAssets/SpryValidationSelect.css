@@ -20,7 +20,7 @@
 .selectRequiredState .selectRequiredMsg,
 .selectInvalidState .selectInvalidMsg {
 	display: inline;
-	color: #576BB1;
+	color: #FFF;
 }
 
 /* The next three group selectors control the way the core element (SELECT) looks like when the widget is in one of the states: 
