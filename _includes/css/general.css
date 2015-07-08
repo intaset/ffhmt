@@ -719,6 +719,15 @@ input[type="reset"]:hover, input[type="submit"]:hover {
   background-color: #EA573A;
 }
 
+.paypal table {
+	width: inherit;
+}
+
+.paypal tr {
+  border: 0;
+  text-align: center;
+}
+
 /* ACCOMMODATION TABLE */
 .accommodation table {
   border-collapse: collapse;
@@ -742,10 +751,6 @@ input[type="reset"]:hover, input[type="submit"]:hover {
 /* Contact Us */
 .contact tr {
 	border-bottom: 0;
-}
-
-.contact button, input, select, textarea {
-  width: 100%;
 }
 
 /* 213 PX / LG OPTIMUS ONE */
