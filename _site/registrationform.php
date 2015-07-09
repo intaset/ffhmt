@@ -1,5 +1,5 @@
 <?php
-$my_email = "registration@bbseries.org";
+$my_email = "registration@ffhmt.com";
 $errors = array();
 
 // Remove $_COOKIE elements from $_REQUEST.
@@ -108,6 +108,6 @@ title: FFHMT'16 - Registration Form Filled!
 
   	<p class="body">If there are any problems in the information you have filled out, please write an email to us at <a href="mailto:registration@ffhmt.com" class="body-link">registration@ffhmt.com</a> mentioning the mistakes made. Please note that you SHOULD NOT refill the form.</p>
 
-	<p class="body">We are looking forward to seeing you at the ICBB'15!</p>
+	<p class="body">We are looking forward to seeing you at the FFHMT'16!</p>
   </div>
 </div>

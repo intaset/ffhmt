@@ -598,7 +598,6 @@ footer .body {
 }
 
 footer a {
-	font-family: 'Lato', sans-serif;
 	color: #FFF;
 	border-bottom: 1px solid;
 	text-decoration: none;
@@ -646,7 +645,6 @@ textarea {
 }
 
 .copyright a {
-	font-family: 'Lato', sans-serif;
 	color: #576BB1;
 	text-transform: uppercase;
 	text-decoration: none;
