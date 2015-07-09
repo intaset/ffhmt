@@ -422,6 +422,7 @@ transition: all 300ms;
 			width: 36px;
 			height: 36px;
 			color: #EA573A;
+			background-color: #FFF;
 			font-family: "icomoon";
 			font-style: normal;
 			font-size: 1.2em;
@@ -626,11 +627,15 @@ textarea {
   width: 100%;
 }
 
-.contact td {
+.label {
 	display: block;
 	width: 100%;
 }
 
+.text {
+	display: block;
+	width: 100%;
+}
 .contact .body {
 	text-align: left;
 }
@@ -873,15 +878,15 @@ right: 296px;
 nav#slide-menu {
 right: -284px;
 width: 100%;
-max-width: 284px;
+max-width: 264px;
 }
 
 body.menu-active div#content {
-right: 284px;
+right: 264px;
 }
 
 body.menu-active div#content .menu-trigger {
-right: 294px;
+right: 280px;
 }
 
 div.menu-trigger {
@@ -960,9 +965,23 @@ footer {
   width: 100%;
 }
 
-.contact td {
-  display: inline-block;
-  width: 50%;
+.label {
+	display: inline-block;
+	width: 30%;
+}
+.text {
+	display: inline-block;
+	width: 70%;
+}
+@-moz-document url-prefix() {
+.label {
+	float:left;
+	width: 30%;
+}
+.text {
+	float: right;
+	width: 70%;
+}
 }
 }
 
@@ -1104,6 +1123,7 @@ h2 {
 
 .panel-wrapper {
   padding: 1em 2em!important;
+  background: inherit!important;
 }
 
 .topics {
