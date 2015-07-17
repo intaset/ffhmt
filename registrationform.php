@@ -39,7 +39,7 @@ $date = date("Y-m-d,h_i_s A");
 
 $message = build_message($_REQUEST);
 
-$message = 'Thank you for registering for FFHMT 2016. We will provide you any of the requested documents with in 48 hours.
+$message = 'Thank you for registering for FFHMT 2016. If you have requested any official invitation letters, please allow up to 5 business days to receive your documents.
 
 If you are an author, please make sure to send us your camera ready version and a signed copyright form (www.ffhmt.com/papers) via email to info@ffhmt.com. We CANNOT include your paper in the proceedings otherwise.' . $message ;
 
@@ -253,7 +253,7 @@ mail($your_email,$your_subject,$message,$your_headers);
 
   	<p class="body">If there are any problems in the information you have filled out, please write an email to us at <a href="mailto:registration@ffhmt.com" class="body-link">registration@ffhmt.com</a> mentioning the mistakes made. Please note that you SHOULD NOT refill the form.</p>
 
-	<p class="body">We are looking forward to seeing you at the FFHMT'16!</p>
+	<p class="body">We are looking forward to seeing you at FFHMT'16!</p>
   </div>
 </div>
 
