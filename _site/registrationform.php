@@ -223,7 +223,26 @@ mail($your_email,$your_subject,$message,$your_headers);
     </div>
   </header>
 
-<div class="grid main-content">
+  <div class="grid main-content">
+  <div class="unit unit-s-1 unit-m-1-3-1 unit-l-1-3-1">
+    <div class="unit-spacer">
+      <h2>Announcements</h2>
+      <div id="main-slider" class="liquid-slider">
+    <div>
+      <h2 class="title">1</h2>
+      <p class="bold">FFHMT 2016:</p>
+      <p class="body">FFHMT 2016 will  be held in Ottawa, Canada on May 2016.</p>
+    </div>          
+    <div>
+      <h2 class="title">2</h2>
+      <p class="bold">Best Paper Award:</p>
+      <p class="body">Two best paper awards will be conferred to author(s) of the papers that receive the highest rank during the peer-review and by the respected session chairs. Please visit <a href="../papers" class="body-link">Paper Submission</a> for more information.</p>
+    </div>
+
+  </div>
+    </div>
+  </div>
+
 <div class="unit unit-s-1 unit-m-1-4-1 unit-l-1-4-1">
   <div class="unit-spacer content">
     <p class="body">Thank you for filling out the registration form. You should receive an email with your information. Please keep this email for your reference.</p>
@@ -237,4 +256,273 @@ mail($your_email,$your_subject,$message,$your_headers);
 	<p class="body">We are looking forward to seeing you at the FFHMT'16!</p>
   </div>
 </div>
+
+  <div class="unit unit-s-1 unit-m-1-3-1 unit-l-1-3-1">
+  <div class="unit-spacer">
+    <section class="main">
+				<div class="custom-calendar-wrap">
+					<div id="custom-inner" class="custom-inner">
+						<div class="custom-header clearfix">
+							<nav>
+								<span id="custom-prev" class="custom-prev"></span>
+								<span id="custom-next" class="custom-next"></span>
+							</nav>
+							<h2 id="custom-month" class="custom-month"></h2>
+							<h3 id="custom-year" class="custom-year"></h3>
+						</div>
+						<div id="calendar" class="fc-calendar-container"></div>
+					</div>
+				</div>
+			</section>
+    <h2>Upcoming Dates</h2>
+
+<div class="grid events">
+<div class="unit unit-s-1 unit-m-1-4 unit-l-1-4">
+	<div class="date">
+		Jan. 1, 2016
+	</div>
 </div>
+
+<div class="unit unit-s-1 unit-m-3-4 unit-l-3-4">
+	<div class="unit-spacer">
+		Paper Submission Deadline
+	</div>
+</div>
+</div>
+
+<div class="grid events">
+<div class="unit unit-s-1 unit-m-1-4 unit-l-1-4">
+	<div class="date">
+		Feb. 10, 2016
+	</div>
+</div>
+
+<div class="unit unit-s-1 unit-m-3-4 unit-l-3-4">
+	<div class="unit-spacer">
+		Notification of Authors
+	</div>
+</div>
+</div>
+
+<div class="grid events">
+<div class="unit unit-s-1 unit-m-1-4 unit-l-1-4">
+	<div class="date">
+		Feb. 20, 2016
+	</div>
+</div>
+
+<div class="unit unit-s-1 unit-m-3-4 unit-l-3-4">
+	<div class="unit-spacer">
+		Camera Ready Submission Deadline
+	</div>
+</div>
+</div>
+  </div>
+  </div>
+</div>
+
+<footer id="contact">
+	<div class="grid">
+	<div class="unit unit-s-1 unit-m-1-3 unit-l-1-3">
+	<div class="unit-spacer">
+		<h2>Contact Us</h2>
+		<p class="body">International ASET Inc.<br>
+		Unit No. 417, 1376 Bank St.<br>
+		Ottawa, Ontario, Canada<br>
+		Postal Code: K1H 7Y3<br>
+		+1-613-695-3040<br>
+		<a href="mailto:info@ffhmt.com">info@ffhmt.com</a></p>
+		</div>
+	</div>
+
+	<div class="unit unit-s-1 unit-m-2-3 unit-l-2-3 contact">
+	<div class="unit-spacer">
+	<p class="body">For questions or comments regarding FFHMT'16, please fill out the form below:</p>
+
+    <form action="../contactus.php" method="post" enctype="multipart/form-data" name="ContactForm">
+  
+  <table border="0" class="contact">
+    <tbody>
+      <tr>
+        <td class="label">Name:</td>
+        <td class="text"><span id="sprytextfield1">
+              <input name="Name" type="text" id="Name" size="40" autocomplete="off">
+
+              <span class="textfieldRequiredMsg">A value is required.</span></span></td>
+        </tr>
+
+        <tr>
+            <td class="label">Email:</td>
+            <td class="text"><span id="sprytextfield2">
+            <input name="Email" type="text" id="Email" size="40" autocomplete="off">
+            <span class="textfieldRequiredMsg">A value is required.</span><span class="textfieldInvalidFormatMsg">Invalid format.</span></span></td>
+          </tr>
+
+          <tr>
+            <td class="label">Confirm Email:</td>
+             <td class="text"><span id="spryconfirm4">
+              <input name="Confirm Email" type="text" id="Confirm Email" size="40" autocomplete="off">
+              <span class="confirmRequiredMsg">A value is required.</span><span class="confirmInvalidMsg">Emails don't match.</span></span></td>
+          </tr>
+
+          <tr>
+            <td class="label">Subject:</td>
+            <td class="text"><span id="sprytextfield3">
+              <input name="Subject" type="text" id="Subject" size="40" autocomplete="off">
+              <span class="textfieldRequiredMsg">A value is required.</span></span></td>
+          </tr>
+
+          <tr>
+            <td valign="top" class="label">Message:</td>
+            <td class="text"><span id="sprytextarea1">
+              <textarea name="Message" id="Message" cols="31" rows="10" autocomplete="off"></textarea>
+              <span class="textareaRequiredMsg">A value is required.</span></span>
+              <center>
+        <input type="submit" name="Submit" value="Submit" accept="image/jpeg">
+        <input type="reset" name="Reset" value="Reset"></center></td>
+          </tr>
+
+        </tbody></table><br>
+
+        
+</form>
+    </div>
+	</div>
+	</div>
+</footer> 
+
+<div class="copyright">
+	<a href="international-aset.com">International ASET Inc.</a> | <a href="http://international-aset.com/phplistpublic/?p=subscribe&id=1">Subscribe</a> | <a href="../terms">Terms of Use</a> | <a href="../sitemap">Sitemap</a>
+	<p class="body">&copy; Copyright International ASET Inc., 2015. All rights reserved.</p>
+	<p class="copyright1">Have any feedback? Please provide them here: <a href="http://international-aset.com/feedback/?refURL=%3C?php%20echo%20%27/FFHMT2015%27.$_SERVER[%27REQUEST_URI%27];?%3E" class="body-link">Webmaster</a></p>
+</div>
+</div>
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <script src="../js/jquery.nicescroll.min.js"></script>
+  <script type="text/javascript" src="../js/jquery.calendario.js"></script>
+    <script type="text/javascript" src="../js/data.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.4/jquery.touchSwipe.min.js"></script>
+  <script src="../js/jquery.liquid-slider.min.js"></script>  
+  <script src="../js/classie.js"></script>
+    <script src="../js/cbpAnimatedHeader.min.js"></script>
+    <script src="../js/SpryValidationSelect.js" type="text/javascript"></script>
+
+    <script src="../js/SpryValidationTextField.js" type="text/javascript"></script>
+
+    <script src="../js/SpryValidationConfirm.js" type="text/javascript"></script>
+
+    <script src="../js/SpryValidationCheckbox.js" type="text/javascript"></script>
+    <script src="../js/SpryValidationTextarea.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+/*
+  Slidemenu
+*/
+(function() {
+  var $body = document.body
+  , $menu_trigger = $body.getElementsByClassName('menu-trigger')[0];
+
+  if ( typeof $menu_trigger !== 'undefined' ) {
+    $menu_trigger.addEventListener('click', function() {
+      $body.className = ( $body.className == 'menu-active' )? '' : 'menu-active';
+    });
+  }
+
+}).call(this);
+</script>
+
+    <script type="text/javascript">
+var spryselect1 = new Spry.Widget.ValidationSelect("spryselect1", {isRequired:false});
+
+var sprytextfield1 = new Spry.Widget.ValidationTextField("sprytextfield1");
+
+var sprytextfield2 = new Spry.Widget.ValidationTextField("sprytextfield2");
+
+var sprytextfield3 = new Spry.Widget.ValidationTextField("sprytextfield3");
+
+var sprytextfield4 = new Spry.Widget.ValidationTextField("sprytextfield4");
+
+var spryselect2 = new Spry.Widget.ValidationSelect("spryselect2", {invalidValue:"-1"});
+
+var sprytextfield5 = new Spry.Widget.ValidationTextField("sprytextfield5", "email");
+
+var sprytextarea1 = new Spry.Widget.ValidationTextarea("sprytextarea1");
+
+var spryselect3 = new Spry.Widget.ValidationSelect("spryselect3", {invalidValue:"-1", isRequired:false});
+
+var sprytextfield6 = new Spry.Widget.ValidationTextField("sprytextfield6", "date", {format:"mm/dd/yyyy"});
+
+var sprycheckbox1 = new Spry.Widget.ValidationCheckbox("sprycheckbox1");
+</script>
+
+
+    <script type="text/javascript"> 
+      $(function() {
+      
+        var transEndEventNames = {
+            'WebkitTransition' : 'webkitTransitionEnd',
+            'MozTransition' : 'transitionend',
+            'OTransition' : 'oTransitionEnd',
+            'msTransition' : 'MSTransitionEnd',
+            'transition' : 'transitionend'
+          },
+          transEndEventName = transEndEventNames[ Modernizr.prefixed( 'transition' ) ],
+          $wrapper = $( '#custom-inner' ),
+          $calendar = $( '#calendar' ),
+          cal = $calendar.calendario( {
+            onDayClick : function( $el, $contentEl, dateProperties ) {
+
+              if( $contentEl.length > 0 ) {
+                showEvents( $contentEl, dateProperties );
+              }
+
+            },
+            caldata : codropsEvents,
+            displayWeekAbbr : true
+          } ),
+          $month = $( '#custom-month' ).html( cal.getMonthName() ),
+          $year = $( '#custom-year' ).html( cal.getYear() );
+
+        $( '#custom-next' ).on( 'click', function() {
+          cal.gotoNextMonth( updateMonthYear );
+        } );
+        $( '#custom-prev' ).on( 'click', function() {
+          cal.gotoPreviousMonth( updateMonthYear );
+        } );
+
+        function updateMonthYear() {        
+          $month.html( cal.getMonthName() );
+          $year.html( cal.getYear() );
+        }
+
+        // just an example..
+        function showEvents( $contentEl, dateProperties ) {
+
+          hideEvents();
+          
+          var $events = $( '<div id="custom-content-reveal" class="custom-content-reveal"><h4>Events for ' + dateProperties.monthname + ' ' + dateProperties.day + ', ' + dateProperties.year + '</h4></div>' ),
+            $close = $( '<span class="custom-content-close"></span>' ).on( 'click', hideEvents );
+
+          $events.append( $contentEl.html() , $close ).insertAfter( $wrapper );
+          
+          setTimeout( function() {
+            $events.css( 'top', '0%' );
+          }, 25 );
+
+        }
+        function hideEvents() {
+
+          var $events = $( '#custom-content-reveal' );
+          if( $events.length > 0 ) {
+            
+            $events.css( 'top', '100%' );
+            Modernizr.csstransitions ? $events.on( transEndEventName, function() { $( this ).remove(); } ) : $events.remove();
+
+          }
+
+        }
+      
+      });
+    </script>
