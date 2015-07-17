@@ -105,7 +105,7 @@ mail($your_email,$your_subject,$message,$your_headers);
 <meta name="robots" content="noarchive">
 <meta name="description" content="">
 <meta name="keywords" content="">
-<title>FFHMT'16 - Registration</title>
+<title>FFHMT'16 - Registration Form Filled!</title>
 
 <meta name="handheldfriendly" content="true">
 <meta name="mobileoptimized" content="240">
@@ -526,3 +526,16 @@ var sprycheckbox1 = new Spry.Widget.ValidationCheckbox("sprycheckbox1");
       
       });
     </script>
+
+        <script>
+    $('#main-slider').liquidSlider();
+  </script>
+  <script>
+(function($){
+        $(window).load(function(){
+            $("html").niceScroll();
+        });
+    })(jQuery);
+</script>
+</body>
+</html>
