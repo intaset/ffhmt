@@ -39,7 +39,9 @@ $date = date("Y-m-d,h_i_s A");
 
 $message = build_message($_REQUEST);
 
-$message = 'Thank you for registering for FFHMT 2016. If you have requested any official letters, please allow up to 5 business days to receive your documents.
+$message = 'Dear Colleague,
+
+Thank you for registering for FFHMT 2016. If you have requested any official letters, please allow up to 5 business days to receive your documents.
 
 If you are an author, please make sure to send us your camera ready version and a signed copyright form via email to info@ffhmt.com. You can find the copyright form here: www.ffhmt.com/papers. Please note that failing to do so may result in an unsuccessful process of your registration.
 
