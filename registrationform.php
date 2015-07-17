@@ -36,11 +36,12 @@ function build_message($request_input){
 // Defining the Variables
 
 $date = date("Y-m-d,h_i_s A");
+
 $message = build_message($_REQUEST);
 
 $message = 'Thank you for registering for FFHMT 2016. We will provide you any of the requested documents with in 48 hours.<br><br>
 
-	If you are an author, please make sure to send us your camera ready version and a signed copyright form via email to <a href="mailto:info@ffhmt.com" class="body-link">info@ffhmt.com</a>. We <b>cannot</b> include your paper in the proceedings otherwise.' . $message ;
+	If you are an author, please make sure to send us your camera ready version and a signed copyright form (see papers) via email to info@ffhmt.com. We <b>cannot</b> include your paper in the proceedings otherwise.' . $message ;
 
 $message = $message . 'File uploaded: ';
 
