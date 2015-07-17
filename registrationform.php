@@ -41,7 +41,13 @@ $message = build_message($_REQUEST);
 
 $message = 'Thank you for registering for FFHMT 2016. If you have requested any official invitation letters, please allow up to 5 business days to receive your documents.
 
-If you are an author, please make sure to send us your camera ready version and a signed copyright form (www.ffhmt.com/papers) via email to info@ffhmt.com. We CANNOT include your paper in the proceedings otherwise.' . $message ;
+If you are an author, please make sure to send us your camera ready version and a signed copyright form (www.ffhmt.com/papers) via email to info@ffhmt.com. Please note that failing to do so may result in an unsuccessful process of your registration
+
+You can find your registration details below. If there are any problems in the information you have filled out, please write an email to us at registration@ffhmt.com mentioning the mistakes made. Please note that you SHOULD NOT refill the form.' . $message . '
+
+---
+
+';
 
 $message = $message . 'File uploaded: ';
 
