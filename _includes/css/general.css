@@ -202,6 +202,18 @@ th {
   float: right;
 }
 
+.left {
+  display: inline-block;
+  margin: 0;
+  text-align: left;
+}
+
+.right {
+  display: inline-block;
+  float: right;
+  margin: 0;
+}
+
 .top {
 	display: block;
 	text-align: right;
@@ -1037,7 +1049,7 @@ footer {
 	}
 
 	.bg {
-		background-color: rgba(0,0,0,0.7);
+		background-color: rgba(0,0,0,0.65);
 		position: relative;
 		text-align: center;
 		padding: 59px 0;
@@ -1053,7 +1065,7 @@ footer {
 		width: 100%;
 		}
 		.bg {
-		background-color: rgba(0,0,0,0.7);
+		background-color: rgba(0,0,0,0.65);
 		position: relative;
 		text-align: center;
 		padding: 57px 0;
@@ -1140,12 +1152,23 @@ h2 {
 
 .imp-date {
   padding: 0.5em;
-  text-align: right;
 }
 
 .reg {
   padding: 0.5em;
   text-align: right;
+}
+
+.left {
+  display: inline-block;
+  margin: 0;
+  text-align: left;
+}
+
+.right {
+  display: inline-block;
+  float: right;
+  margin: 0;
 }
 
 footer form {
@@ -1169,7 +1192,7 @@ footer form {
 }
 
 .bg {
-		background-color: rgba(0,0,0,0.7);
+		background-color: rgba(0,0,0,0.65);
 		position: relative;
 		text-align: center;
 		padding: 72px 0;
@@ -1185,7 +1208,7 @@ footer form {
 		width: 100%;
 		}
 		.bg {
-		background-color: rgba(0,0,0,0.7);
+		background-color: rgba(0,0,0,0.65);
 		position: relative;
 		text-align: center;
 		padding: 57px 0;

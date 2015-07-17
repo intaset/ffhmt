@@ -38,6 +38,10 @@ function build_message($request_input){
 $date = date("Y-m-d,h_i_s A");
 $message = build_message($_REQUEST);
 
+$message = 'Thank you for registering for FFHMT 2016. We will provide you any of the requested documents with in 48 hours.<br><br>
+
+	If you are an author, please make sure to send us your camera ready version and a signed copyright form via email to <a href="mailto:info@ffhmt.com" class="body-link">info@ffhmt.com</a>. We <b>cannot</b> include your paper in the proceedings otherwise.' . $message ;
+
 $message = $message . 'File uploaded: ';
 
 $message = $message . $date.'_'.$_FILES['file']['name'];
@@ -52,7 +56,7 @@ $headers = "From: " . $_REQUEST['Email'];
 
 $your_email = $_REQUEST['Email'];
 
-$your_subject = "Your Registration Details for ICBB'15";
+$your_subject = "Your Registration Details for FFHMT'16";
 
 $your_headers = "From: " . $my_email;
 
@@ -62,7 +66,7 @@ if ((($_FILES["file"]["type"] == "image/gif")
 
 || ($_FILES["file"]["type"] == "image/png")
 
-|| ($_FILES["file"]["type"] == "image/pjpeg")
+|| ($_FILES["file"]["type"] == "image/jpg")
 
 || ($_FILES["file"]["type"] == "image/tif"))
 
@@ -77,15 +81,15 @@ if ((($_FILES["file"]["type"] == "image/gif")
     }
   else
     {
-      move_uploaded_file($_FILES["file"]["tmp_name"],"upload/" . $_FILES["file"]["name"]);
-      rename("upload/".$_FILES['file']['name'],"upload/".$date.'_'.$_FILES['file']['name']);
+      move_uploaded_file($_FILES["file"]["tmp_name"],"receipts/" . $_FILES["file"]["name"]);
+      rename("receipts/".$_FILES['file']['name'],"receipts/".$date.'_'.$_FILES['file']['name']);
 	$filename = $date.'_'.$_FILES['file']['name'];
     }
   }
 else
   {
   die("The file you have selected for upload is invalid. <br />
-	Please make sure the file you are trying to upload is an image. <br />
+	Please make sure the file you are trying to upload is an image (.jpg, .jpeg, .png, .gif, .tif) <br />
 	No other file types are allowed.");
   }
 
