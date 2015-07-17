@@ -276,7 +276,7 @@
         <tr>
             <td>First Name: <font color="#FF0000">*</font></td>
 
-            <td><span id="sprytextfield1">
+            <td><span id="sprytextfield9">
             <label>
               <input name="First Name" type="text" id="First Name" size="45" autocomplete="off">
             </label>
@@ -296,12 +296,11 @@
 
         <tr>
           <td>Affiliation: <font color="#FF0000">*</font></td>
-          <td><span id="sprytextfield3">
+          <td><span id="sprytextfield8">
             <label>
               <input name="Affiliation" type="text" id="Affiliation" size="45" autocomplete="off">
             </label>
-            <span class="textfieldRequiredMsg"><br>
-            A value is required.</span></span></td>
+            </span></td>
         </tr>
 
         <tr>
@@ -317,8 +316,7 @@
             <label>
               <input name="Address" type="text" id="Address" size="45" autocomplete="off">
             </label>
-            <span class="textfieldRequiredMsg"><br>
-            A value is required.</span></span></td>
+            </span></td>
         </tr>
 
         <tr>
@@ -745,7 +743,7 @@
 
             <option value="Zimbabwe">Zimbabwe</option>
           </select>
-            </label><br><span class="selectRequiredMsg">Please select a country.</span><span class="selectInvalidMsg">Please select a valid item.</span></span></td>
+            </label><br></span></td>
         </tr>
 
         <tr>
@@ -764,12 +762,11 @@
 
         <tr>
           <td>Email: <font color="#FF0000">*</font></td>
-          <td><span id="sprytextfield5">
+          <td><span id="sprytextfield7">
           <label>
             <input name="Email" type="text" id="Email" size="45" autocomplete="off">
           </label>
-          <span class="textfieldRequiredMsg"><br>
-          An email is required.</span><span class="textfieldInvalidFormatMsg">Invalid format.</span></span></td>
+          <span class="textfieldInvalidFormatMsg">Invalid format.</span></span></td>
         </tr>
 
         <tr>
@@ -778,7 +775,7 @@
             </td>
             <td><span id="spryconfirm1">
                 <input name="Confirm Email" type="text" id="Confirm Email">
-                <span class="confirmInvalidMsg" align="left">Emails don't match.</span><span class="confirmRequiredMsg"></span></span>
+                </span>
             </td>
         </tr>
 
@@ -1094,6 +1091,12 @@ var sprytextarea1 = new Spry.Widget.ValidationTextarea("sprytextarea1");
 var spryselect3 = new Spry.Widget.ValidationSelect("spryselect3", {invalidValue:"-1", isRequired:false});
 
 var sprytextfield6 = new Spry.Widget.ValidationTextField("sprytextfield6", "date", {format:"mm/dd/yyyy"});
+
+var sprytextfield9 = new Spry.Widget.ValidationTextField("sprytextfield9");
+
+var sprytextfield7 = new Spry.Widget.ValidationTextField("sprytextfield7");
+
+var sprytextfield8 = new Spry.Widget.ValidationTextField("sprytextfield8");
 
 var sprycheckbox1 = new Spry.Widget.ValidationCheckbox("sprycheckbox1");
 </script>
