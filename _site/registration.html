@@ -286,7 +286,7 @@
 
         <tr>
             <td>Last Name: <font color="#FF0000">*</font></td>
-            <td><span id="sprytextfield2">
+            <td><span id="sprytextfield10">
             <label>
               <input name="Last Name" type="text" id="Last Name" size="45" autocomplete="off">
             </label>
@@ -780,6 +780,20 @@
         </tr>
 
         <tr>
+          <td>Would you be interested in being a session chair? 
+            <font color="#FF0000">*</font></td>
+          <td><span id="spryselect11">
+            <label>
+              <select name="Student Registration" id="Student Registration">
+                <option selected="" disabled="">--</option>
+                <option>No</option>
+                <option>Yes</option>
+              </select>
+            </label>
+            <span class="selectInvalidMsg">Please select a valid item.</span></span></td>
+        </tr>
+
+        <tr>
           <td>Student Registration: 
     		<font color="#FF0000">*</font></td>
           <td><span id="spryselect3">
@@ -1090,6 +1104,8 @@ var sprytextarea1 = new Spry.Widget.ValidationTextarea("sprytextarea1");
 
 var spryselect3 = new Spry.Widget.ValidationSelect("spryselect3", {invalidValue:"-1", isRequired:false});
 
+var spryselect3 = new Spry.Widget.ValidationSelect("spryselect11", {invalidValue:"-1", isRequired:false});
+
 var sprytextfield6 = new Spry.Widget.ValidationTextField("sprytextfield6", "date", {format:"mm/dd/yyyy"});
 
 var sprytextfield9 = new Spry.Widget.ValidationTextField("sprytextfield9");
@@ -1097,6 +1113,8 @@ var sprytextfield9 = new Spry.Widget.ValidationTextField("sprytextfield9");
 var sprytextfield7 = new Spry.Widget.ValidationTextField("sprytextfield7");
 
 var sprytextfield8 = new Spry.Widget.ValidationTextField("sprytextfield8");
+
+var sprytextfield10 = new Spry.Widget.ValidationTextField("sprytextfield10");
 
 var sprycheckbox1 = new Spry.Widget.ValidationCheckbox("sprycheckbox1");
 </script>
