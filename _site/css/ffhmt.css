@@ -859,7 +859,6 @@ th {
 
 .reg .right {
   display: inline-block;
-  float: right;
 }
 
 .left {
@@ -870,7 +869,6 @@ th {
 
 .right {
   display: inline-block;
-  float: right;
   margin: 0;
 }
 
@@ -1826,7 +1824,6 @@ h2 {
 
 .right {
   display: inline-block;
-  float: right;
   margin: 0;
 }
 
