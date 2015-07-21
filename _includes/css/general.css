@@ -199,6 +199,7 @@ th {
 
 .reg .right {
   display: inline-block;
+  float: right;
 }
 
 .left {
@@ -210,6 +211,7 @@ th {
 .right {
   display: inline-block;
   margin: 0;
+  float: right;
 }
 
 .top {
@@ -1165,6 +1167,7 @@ h2 {
 .right {
   display: inline-block;
   margin: 0;
+  float: left;
 }
 
 footer form {
@@ -1216,6 +1219,12 @@ footer form {
 
 	.cbp-af-inner nav .dot {
   padding: 0 0.3em;
+}
+
+.right {
+  display: inline-block;
+  margin: 0;
+  float: right;
 }
 }
 
