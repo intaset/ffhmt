@@ -1161,7 +1161,7 @@ h2 {
 .left {
   display: inline-block;
   margin: 0;
-  text-align: left;
+  float: left;
 }
 
 .right {
