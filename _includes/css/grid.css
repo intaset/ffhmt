@@ -20,6 +20,8 @@
 .unit-spacer {
   padding: 8px;
 }
+
+
 @media only screen and (max-width: 63.9em) {
   .unit-s-hidden {
     display: none;
@@ -29,7 +31,7 @@
     display: block;
   }
   .unit-s-1-2 {
-    width: 50%;
+    width: 49%;
   }
   .unit-s-1-3 {
     width: 33.33333%;
@@ -86,7 +88,7 @@
     display: block;
   }
   .unit-l-1-2 {
-    width: 50%;
+    width: 49%;
   }
   .unit-l-1-3 {
     width: 33.33333%;
@@ -105,6 +107,9 @@
   }
   .unit-m-1-4-1 {
     width: 50%;
+  }
+  .unit-l-1-2-1 {
+    width: 49%;
   }
   .unit-l-1-4-2 {
     width: 10%;
