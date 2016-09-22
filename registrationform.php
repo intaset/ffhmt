@@ -242,7 +242,7 @@ mail($your_email,$your_subject,$message,$your_headers);
       <p class="body">FFHMT 2017 will  be held in Toronto, Canada on August 22 - 23, 2017.</p>
 
       <p class="bold">Call For Papers:</p>
-      <p class="body">For more information about the FFHMT'17 Conference, please view the <a href="Toronto_CFP_FFHMT.pdf" class="body-link">flyer</a>.</p>
+      <p class="body">For more information about the FFHMT'17 Conference, please view the <a href="http://ffhmt.com/Toronto_CFP_FFHMT.pdf" class="body-link">flyer</a>.</p>
     </div>          
     <div>
       <h2 class="title">2</h2>
