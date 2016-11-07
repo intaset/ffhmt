@@ -196,7 +196,7 @@ mail($my_email,$subject,$message,$headers);
 
 <div class="bg">
           <h1>4<sup>th</sup> International Conference on Fluid Flow,<br>Heat and Mass Transfer (FFHMT'17)</h1>
-          <p class="subhead">August 22 - 23, 2017 | Toronto, Canada</p>
+          <p class="subhead">August 21 - 23, 2017 | Toronto, Canada</p>
 
           <a href="../papers" class="bg-link">Paper Submission</a> <p class="dot">&middot;</p> <a href="../dates" class="bg-link">Important Dates</a> <p class="dot">&middot;</p> <a href="../registration" class="bg-link">Registration</a>
 
@@ -222,7 +222,7 @@ mail($my_email,$subject,$message,$headers);
 
         <div class="bg">
           <h1>4<sup>th</sup> International Conference on Fluid Flow,<br>Heat and Mass Transfer (FFHMT'17)</h1>
-          <p class="subhead">August 22 - 23, 2017 | Toronto, Canada</p>
+          <p class="subhead">August 21 - 23, 2017 | Toronto, Canada</p>
 
           <a href="../papers" class="bg-link">Paper Submission</a> <p class="dot">&middot;</p> <a href="../dates" class="bg-link">Important Dates</a> <p class="dot">&middot;</p> <a href="../registration" class="bg-link">Registration</a>
 
@@ -249,7 +249,20 @@ mail($my_email,$subject,$message,$headers);
     <div>
       <h2 class="title">1</h2>
       <p class="bold">FFHMT 2017:</p>
-      <p class="body">FFHMT 2017 will  be held in Toronto, Canada on August 22 - 23, 2017.</p>
+      <p class="body">FFHMT 2017 will  be held in Toronto, Canada on August 21 - 23, 2017.</p>
+
+      <p class="bold">EHST'17 Workshop</p>
+      <p class="body">As per popular request, the organizing committee has decided to extend the EHST'17 conference to three days (now August 21 - 23, 2017). The new high-level schedule is as follows:</p>
+
+      <ul>
+        <li>Day 1: Workshop(s) and Registration</li>
+        <li>Day 2: Main Track Conference Sessions</li>
+        <li>Day 2: Main Track Conference Sessions and Gala dinner or Cruise tour</li>
+      </ul>
+      
+      <p class="body">Registration for the workshop will be 113 CAD (HST included) and separate from the main conferences. Workshop attendees will receive a certificate of participation. For registration, please visit: <a href="../registration" class="body-link">here</a>.</p>
+
+      <p class="body">More information to follow; we greatly appreciate your patience!</p>
 
       <p class="bold">Call For Papers:</p>
       <p class="body">For more information about the FFHMT'17 Conference, please view the <a href="http://ffhmt.com/Toronto_CFP_FFHMT.pdf" class="body-link">flyer</a>.</p>
