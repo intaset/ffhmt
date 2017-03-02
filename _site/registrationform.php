@@ -310,13 +310,15 @@ mail($your_email,$your_subject,$message,$your_headers);
 <div class="grid events">
 <div class="unit unit-s-1 unit-m-1-4 unit-l-1-4">
   <div class="date">
-    Mar. 1, 2017
+    <div class="past">Mar. 1, 2017</div>
+    Apr. 28, 2017
   </div>
 </div>
 
 <div class="unit unit-s-1 unit-m-3-4 unit-l-3-4">
   <div class="unit-spacer">
-    Paper Submission Deadline
+     <div class="past past-text">Paper Submission Deadline</div>
+     Extended Paper Submission Deadline
   </div>
 </div>
 </div>
@@ -324,13 +326,15 @@ mail($your_email,$your_subject,$message,$your_headers);
 <div class="grid events">
 <div class="unit unit-s-1 unit-m-1-4 unit-l-1-4">
   <div class="date">
-    Apr. 15, 2017
+    <div class="past">Apr. 15, 2017</div>
+    May 15, 2017
   </div>
 </div>
 
 <div class="unit unit-s-1 unit-m-3-4 unit-l-3-4">
   <div class="unit-spacer">
-    Notification of Authors
+    <div class="past past-text">Notification of Authors</div>
+    Extended Notification of Authors
   </div>
 </div>
 </div>
@@ -338,12 +342,14 @@ mail($your_email,$your_subject,$message,$your_headers);
 <div class="grid events">
 <div class="unit unit-s-1 unit-m-1-4 unit-l-1-4">
   <div class="date">
-    May 01, 2017
+    <div class="past">May 01, 2017</div>
+    May 26, 2017
   </div>
 </div>
 
 <div class="unit unit-s-1 unit-m-3-4 unit-l-3-4">
   <div class="unit-spacer">
+    <div class="past past-text">Final Version of Accepted Submissions Deadline</div>
     Final Version of Accepted Submissions Deadline
   </div>
 </div>
