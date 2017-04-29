@@ -308,20 +308,22 @@ mail($my_email,$subject,$message,$headers);
 					</div>
 				</div>
 			</section>
-   <h2>Upcoming Dates</h2>
+   
+
+<h2>Upcoming Dates</h2>
 
 <div class="grid events">
 <div class="unit unit-s-1 unit-m-1-4 unit-l-1-4">
   <div class="date">
-    <div class="past">Mar. 1, 2017</div>
-    Apr. 28, 2017
+    <div class="past">Apr. 28, 2017</div>
+    Jun. 9, 2017
   </div>
 </div>
 
 <div class="unit unit-s-1 unit-m-3-4 unit-l-3-4">
   <div class="unit-spacer">
-     <div class="past past-text">Paper Submission Deadline</div>
-     Extended Paper Submission Deadline
+     <div class="past past-text">Extended Paper Submission Deadline</div>
+     Final Extended Paper Submission Deadline
   </div>
 </div>
 </div>
@@ -329,15 +331,15 @@ mail($my_email,$subject,$message,$headers);
 <div class="grid events">
 <div class="unit unit-s-1 unit-m-1-4 unit-l-1-4">
   <div class="date">
-    <div class="past">Apr. 15, 2017</div>
-    May 15, 2017
+    <div class="past">May 15, 2017</div>
+    Jun. 16, 2017
   </div>
 </div>
 
 <div class="unit unit-s-1 unit-m-3-4 unit-l-3-4">
   <div class="unit-spacer">
-    <div class="past past-text">Notification of Authors</div>
-    Extended Notification of Authors
+    <div class="past past-text">Extended Notification of Authors</div>
+    Final Extended Notification of Authors
   </div>
 </div>
 </div>
@@ -345,8 +347,8 @@ mail($my_email,$subject,$message,$headers);
 <div class="grid events">
 <div class="unit unit-s-1 unit-m-1-4 unit-l-1-4">
   <div class="date">
-    <div class="past">May 01, 2017</div>
-    May 26, 2017
+    <div class="past">May 26, 2017</div>
+    Jul. 14, 2017
   </div>
 </div>
 
@@ -357,6 +359,7 @@ mail($my_email,$subject,$message,$headers);
   </div>
 </div>
 </div>
+   
 
   </div>
   </div>
