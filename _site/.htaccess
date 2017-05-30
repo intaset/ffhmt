@@ -1,15 +1,27 @@
-RewriteEngine on
+writeEngine on
+RewriteBase /
+
+RewriteCond %{HTTP_HOST} ^ffhmt\.international\-aset\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.ffhmt\.international\-aset\.com$
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^(.*)$ "http\:\/\/ffhmt\.com\/$1" [R=301,L]
+
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}\.html -f
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
 RewriteRule ^([^/]+)/$ $1.html 
 
 # Forces a trailing slash to be added
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_URI} !(\.[a-zA-Z0-9]{1,5}|/)$
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
 RewriteRule (.*)$ /$1/ [R=301,L]
 
-Redirect /index http://bbseries.org
+Redirect /index http://ffhmt.com
 
 ErrorDocument 404 /NotValid.html
 ErrorDocument 403 /NotValid.html
@@ -19,4 +31,3 @@ ErrorDocument 500 /NotValid.html
 order allow,deny
 allow from all
 </Files>
-
