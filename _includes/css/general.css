@@ -1027,6 +1027,10 @@ right: 180px;
 	.mob-link {
   font-size: inherit;
 }
+.left {
+     margin-right: 2%;
+	 padding-bottom: 12px;
+}
 
 nav#slide-menu {
 right: -192px;
