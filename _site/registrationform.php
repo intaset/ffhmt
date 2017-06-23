@@ -41,9 +41,10 @@ $message = build_message($_REQUEST);
 
 $message = 'Dear Colleague,
 
-Thank you for registering for FFHMT 2017. If you have requested any official letters, please allow up to 5 business days to receive your documents.
+Thank you for registering for FFHMT 2018. If you have requested any official letters, please allow up to 5 business days to receive your documents.
 
 If you are an author, please make sure to send us your camera ready version and a signed copyright form via email to info@ffhmt.com. You can find the copyright form here: www.ffhmt.com/papers. Please note that failing to do so may result in an unsuccessful process of your registration.
+Thank you for registering for ICGRE 2018. If you have requested any official letters, please allow up to 5 business days to receive your documents.
 
 You can find your registration details below. If there are any errors in the information you have provided, please write an email to us at registration@ffhmt.com mentioning the correct information. Please note that you SHOULD NOT refill the form.
 
@@ -65,9 +66,9 @@ $headers = "From: " . $_REQUEST['email'];
 
 $your_email = $_REQUEST['email'];
 
-$your_subject = "Your Registration Details for FFHMT'17";
+$your_subject = "Your Registration Details for FFHMT'18";
 
-$your_headers = "From: FFHMT'17 <" . $my_email . ">";
+$your_headers = "From: FFHMT'18 <" . $my_email . ">";
 
 if ((($_FILES["file"]["type"] == "image/gif")
 
@@ -113,14 +114,14 @@ mail($your_email,$your_subject,$message,$your_headers);
 <meta name="robots" content="noarchive">
 <meta name="description" content="">
 <meta name="keywords" content="">
-<title>FFHMT'17 - Registration Form Filled!</title>
+<title>FFHMT'18 - Registration Form Filled!</title>
 
 <meta name="handheldfriendly" content="true">
 <meta name="mobileoptimized" content="240">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<link href="../css/ffhmt.css" rel="stylesheet">
+<link href="../css/style.css" rel="stylesheet">
 <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic|Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
 <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
 <!--[if IE-9]><html lang="en" class="ie9"><![endif]-->
@@ -142,7 +143,7 @@ mail($your_email,$your_subject,$message,$your_headers);
 
 <body>
 <nav id="slide-menu">
-  <h1>FFHMT'17</h1>
+  <h1>FFHMT'18</h1>
   <ul>
     <li><a href="/">Home</a></li>
     <li><a href="../papers">Paper Submissions</a></li>
@@ -184,8 +185,8 @@ mail($your_email,$your_subject,$message,$your_headers);
   </div>
 </div>
         <div class="bg">
-          <h1>3rd International Conference on Fluid Flow, <br>Heat and Mass Transfer (FFHMT'17)</h1>
-          <p class="subhead">August 21 - 23, 2017 | Toronto, Canada</p>
+          <h1>5<sup>th</sup>  International Conference on Fluid Flow, <br>Heat and Mass Transfer (FFHMT'18)</h1>
+          <p class="subhead">June 12 - 14, 2018 | Toronto, Canada</p>
 
           <a href="../papers" class="bg-link">Paper Submissions</a> <p class="dot">&middot;</p> <a href="../dates" class="bg-link">Important Dates</a> <p class="dot">&middot;</p> <a href="../registration" class="bg-link">Registration</a>
 
@@ -199,8 +200,8 @@ mail($your_email,$your_subject,$message,$your_headers);
   </div>
 </div>
 </div><br>
-      <p class="body" style="text-align: center!important;">For more information about the FFHMT'17 Conference, please view the <b><a href="http://ffhmt.com/FFHMT17_EHST17_CFP.pdf" class="body-link">conference flyer</a></b>.</p>
-
+      <!-- <p class="body" style="text-align: center!important;">For more information about the FFHMT'18 Conference, please view the <b><a href="http://ffhmt.com/FFHMT17_EHST17_CFP.pdf" class="body-link">conference flyer</a></b>.</p>
+ -->
         </div>
     </div>
 
@@ -212,8 +213,8 @@ mail($your_email,$your_subject,$message,$your_headers);
         </div>
 
         <div class="bg">
-          <h1>4<sup>th</sup> International Conference on Fluid Flow,<br>Heat and Mass Transfer (FFHMT'17)</h1>
-          <p class="subhead">August 21 - 23, 2017 | Toronto, Canada</p>
+          <h1>5<sup>th</sup> International Conference on Fluid Flow,<br>Heat and Mass Transfer (FFHMT'18)</h1>
+          <p class="subhead">June 12 - 14, 2018 | Toronto, Canada</p>
 
           <a href="../papers" class="bg-link">Paper Submissions</a> <p class="dot">&middot;</p> <a href="../dates" class="bg-link">Important Dates</a> <p class="dot">&middot;</p> <a href="../registration" class="bg-link">Registration</a>
 
@@ -228,7 +229,7 @@ mail($your_email,$your_subject,$message,$your_headers);
 </div>
 </div><br>
 
-      <p class="body" style="text-align: center!important; color: #FFF!important;">For more information about the FFHMT'17 Conference, please view the <b><a href="http://ffhmt.com/FFHMT17_EHST17_CFP.pdf" class="body-link">conference flyer</a></b>.</p>
+      <!-- <p class="body" style="text-align: center!important; color: #FFF!important;">For more information about the FFHMT'18 Conference, please view the <b><a href="http://ffhmt.com/FFHMT17_EHST17_CFP.pdf" class="body-link">conference flyer</a></b>.</p> -->
       
         </div>
         </div> 
@@ -240,14 +241,14 @@ mail($your_email,$your_subject,$message,$your_headers);
   <div class="unit unit-s-1 unit-m-1-3-1 unit-l-1-3-1">
     <div class="unit-spacer">
       <h2>Announcements</h2>
-      <div id="main-slider" class="liquid-slider">
+     <div id="main-slider" class="liquid-slider">
     <div>
       <h2 class="title">1</h2>
-      <p class="bold">FFHMT 2017:</p>
-      <p class="body">FFHMT 2017 will  be held in Toronto, Canada on August 21 - 23, 2017.</p>
+      <p class="bold">FFHMT 2018:</p>
+      <p class="body">FFHMT 2018 will  be held in Toronto, Canada on June 12-14, 2018.</p>
 
-      <p class="bold">EHST'17 Workshop</p>
-      <p class="body">As per popular request, the organizing committee has decided to extend the EHST'17 conference to three days (now August 21 - 23, 2017). The new high-level schedule is as follows:</p>
+     <!--  <p class="bold">FFHMT'18 Workshop</p>
+      <p class="body">As per popular request, the organizing committee has decided to extend the FFHMT'18 conference to three days (now June 12-14, 2018). The new high-level schedule is as follows:</p>
 
       <ul>
         <li>Day 1: Workshop(s) and Registration</li>
@@ -259,15 +260,15 @@ mail($your_email,$your_subject,$message,$your_headers);
 
       <p class="body">More information to follow; we greatly appreciate your patience!</p>
     </div>          
-    <div>
+    <div> -->
       <h2 class="title">2</h2>
       <p class="bold">Best Paper Award:</p>
       <p class="body">Two best paper awards will be conferred to author(s) of the papers that receive the highest rank during the peer-review and by the respected session chairs. Please visit <a href="../papers" class="body-link">Paper Submission</a> for more information.</p>
     </div>
     <div>
       <h2 class="title">3</h2>
-      <p class="bold">Propose Exhibits, Workshops & More</p>
-      <p class="body">FFHMT attracts a wide range of researchers in the field of fluid flow, heat and mass transfer. As a prominent company in the field of fluid flow, heat and mass transfer, we would like to offer you an exhibit at FFHMT. Please visit <a href="../events" class="body-link">Events</a> for more information.</p>
+      <p class="bold">Become a Sponsor or an Exhibitor</p>
+      <p class="body">FFHMT attracts a wide range of researchers in the field of fluid flow, heat and mass transfer. As a prominent company in the field of fluid flow, heat and mass transfer, we would like to offer you an exhibit at FFHMT. Please visit <a href="../sponsor" class="body-link">Sponsors</a> for more information.</p>
     </div>
   </div>
 
@@ -284,78 +285,44 @@ mail($your_email,$your_subject,$message,$your_headers);
 
     <p class="body">If there are any problems in the information you have filled out, please write an email to us at <a href="mailto:registration@ffhmt.com" class="body-link">registration@ffhmt.com</a> mentioning the mistakes made. Please note that you SHOULD NOT refill the form.</p>
 
-  <p class="body">We are looking forward to seeing you at FFHMT'17!</p>
+  <p class="body">We are looking forward to seeing you at FFHMT'18!</p>
   </div>
 </div>
 
   <div class="unit unit-s-1 unit-m-1-3-1 unit-l-1-3-1">
   <div class="unit-spacer">
-    <section class="main">
-        <div class="custom-calendar-wrap">
-          <div id="custom-inner" class="custom-inner">
-            <div class="custom-header clearfix">
-              <nav>
-                <span id="custom-prev" class="custom-prev"></span>
-                <span id="custom-next" class="custom-next"></span>
-              </nav>
-              <h2 id="custom-month" class="custom-month"></h2>
-              <h3 id="custom-year" class="custom-year"></h3>
-            </div>
-            <div id="calendar" class="fc-calendar-container"></div>
-          </div>
-        </div>
-      </section>
+
+    
+<section class="main">
+
+  <ul class="side-bar-menu" style="padding:0px;">
+    <li><a href="../sponsor">Sponsors &amp; Exhibitors</a></li>
+    <li><a href="../symposium">Symposium &amp; Workshop</a></li>
+  </ul>
+
+</section>
+
+<br><br>
+
     
 <h2>Upcoming Dates</h2>
 
 <div class="grid events">
 <div class="unit unit-s-1 unit-m-1-4 unit-l-1-4">
   <div class="date">
-    <div class="past">Apr. 28, 2017</div>
-    Jun. 9, 2017
+    <!-- <div class="past">Apr. 28, 2017</div> -->
+    Jun. 12-14, 2018
   </div>
 </div>
 
 <div class="unit unit-s-1 unit-m-3-4 unit-l-3-4">
   <div class="unit-spacer">
-     <div class="past past-text">Extended Paper Submission Deadline</div>
-     Final Extended Paper Submission Deadline
+    <!--  <div class="past past-text">Extended Paper Submission Deadline</div> -->
+     Conference Dates
   </div>
 </div>
 </div>
 
-<div class="grid events">
-<div class="unit unit-s-1 unit-m-1-4 unit-l-1-4">
-  <div class="date">
-    <div class="past">May 15, 2017</div>
-    Jun. 16, 2017
-  </div>
-</div>
-
-<div class="unit unit-s-1 unit-m-3-4 unit-l-3-4">
-  <div class="unit-spacer">
-    <div class="past past-text">Extended Notification of Authors</div>
-    Final Extended Notification of Authors
-  </div>
-</div>
-</div>
-
-<div class="grid events">
-<div class="unit unit-s-1 unit-m-1-4 unit-l-1-4">
-  <div class="date">
-    <div class="past">May 26, 2017</div>
-    Jul. 14, 2017
-  </div>
-</div>
-
-<div class="unit unit-s-1 unit-m-3-4 unit-l-3-4">
-  <div class="unit-spacer">
-    <div class="past past-text">Final Version of Accepted Submissions Deadline</div>
-    Final Version of Accepted Submissions Deadline
-  </div>
-</div>
-</div>
-    
 
   </div>
   </div>
@@ -377,55 +344,23 @@ mail($your_email,$your_subject,$message,$your_headers);
 
   <div class="unit unit-s-1 unit-m-2-3 unit-l-2-3 contact">
   <div class="unit-spacer">
-  <p class="body">For questions or comments regarding FFHMT'17, please fill out the form below:</p>
+  <p class="body">For questions or comments regarding FFHMT'18, please fill out the form below:</p>
 
-    <form action="../contactus.php" method="post" enctype="multipart/form-data" name="ContactForm">
-  
-  <table border="0" class="contact">
-    <tbody>
-      <tr>
-        <td class="label">Name:</td>
-        <td class="text"><span id="sprytextfield1">
-              <input name="Name" type="text" id="Name" size="40" autocomplete="off">
+    <form action="../contactus.php" method="post" enctype="multipart/form-data" name="ContactForm" class="cf">
+  <div class="half left cf">
+    <input style="margin-bottom:0.85em" type="text" name="Name" id="Name" placeholder="Name" required>
+    <input style="margin-bottom:0.85em" type="email" name="Email" id="Email" placeholder="Email address" required>
+    <input type="text" name="Subject" id="Subject" placeholder="Subject" required>
+  </div>
+  <div class="half right cf">
+    <textarea name="Message" type="text" rows="5" name="Message" id="Message" placeholder="Message" required></textarea>
+  </div><br><br>
+  <center class="full right cf"><div class="g-recaptcha" data-sitekey="6Lfd6fsSAAAAAKYX8CT8c-7l8f9w8Jj0kE9TL4SB"></div></center>
+  <div class="cf">
+  <center><div class="full right cf"><input type="submit" name="Submit" value="Submit">
+    <input type="reset" name="Reset" value="Reset"></center></div>
+</div></div></form>
 
-              <span class="textfieldRequiredMsg">A value is required.</span></span></td>
-        </tr>
-
-        <tr>
-            <td class="label">Email:</td>
-            <td class="text"><span id="sprytextfield2">
-            <input name="Email" type="text" id="Email" size="40" autocomplete="off">
-            <span class="textfieldRequiredMsg">A value is required.</span><span class="textfieldInvalidFormatMsg">Invalid format.</span></span></td>
-          </tr>
-
-          <tr>
-            <td class="label">Confirm Email:</td>
-             <td class="text"><span id="spryconfirm4">
-              <input name="Confirm Email" type="text" id="Confirm Email" size="40" autocomplete="off">
-              <span class="confirmRequiredMsg">A value is required.</span><span class="confirmInvalidMsg">Emails don't match.</span></span></td>
-          </tr>
-
-          <tr>
-            <td class="label">Subject:</td>
-            <td class="text"><span id="sprytextfield3">
-              <input name="Subject" type="text" id="Subject" size="40" autocomplete="off">
-              <span class="textfieldRequiredMsg">A value is required.</span></span></td>
-          </tr>
-
-          <tr>
-            <td valign="top" class="label">Message:</td>
-            <td class="text"><span id="sprytextarea1">
-              <textarea name="Message" id="Message" cols="31" rows="10" autocomplete="off"></textarea>
-              <span class="textareaRequiredMsg">A value is required.</span></span>
-              <center>
-        <input type="submit" name="Submit" value="Submit" accept="image/jpeg">
-        <input type="reset" name="Reset" value="Reset"></center></td>
-          </tr>
-
-        </tbody></table><br>
-
-        
-</form>
     </div>
   </div>
   </div>
