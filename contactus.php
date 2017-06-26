@@ -164,7 +164,7 @@ if (isset($_POST['g-recaptcha-response']) && !empty($_POST['g-recaptcha-response
       <p class="bold">FFHMT 2017:</p>
       <p class="body">FFHMT 2017 will  be held in Toronto, Canada on August 21 - 23, 2017.</p>
 
-      <p class="bold">EHST'17 Workshop</p>
+      <!-- <p class="bold">EHST'17 Workshop</p>
       <p class="body">As per popular request, the organizing committee has decided to extend the EHST'17 conference to three days (now August 21 - 23, 2017). The new high-level schedule is as follows:</p>
 
       <ul>
@@ -175,7 +175,7 @@ if (isset($_POST['g-recaptcha-response']) && !empty($_POST['g-recaptcha-response
       
       <p class="body">Registration for the workshop will be 113 CAD (HST included) and separate from the main conferences. Workshop attendees will receive a certificate of participation. For registration, please visit: <a href="../registration" class="body-link">here</a>.</p>
 
-      <p class="body">More information to follow; we greatly appreciate your patience!</p>
+      <p class="body">More information to follow; we greatly appreciate your patience!</p> -->
     </div>          
     <div>
       <h2 class="title">2</h2>
@@ -184,8 +184,8 @@ if (isset($_POST['g-recaptcha-response']) && !empty($_POST['g-recaptcha-response
     </div>
     <div>
       <h2 class="title">3</h2>
-      <p class="bold">Propose Exhibits, Workshops & More</p>
-      <p class="body">FFHMT attracts a wide range of researchers in the field of fluid flow, heat and mass transfer. As a prominent company in the field of fluid flow, heat and mass transfer, we would like to offer you an exhibit at FFHMT. Please visit <a href="../events" class="body-link">Events</a> for more information.</p>
+      <p class="bold">Become a Sponsor or an Exhibitor</p>
+      <p class="body">FFHMT attracts a wide range of researchers in the field of fluid flow, heat and mass transfer. As a prominent company in the field of fluid flow, heat and mass transfer, we would like to offer you an exhibit at FFHMT. Please visit  <a href="../sponsor" class="body-link">Sponsors</a> for more information.</p>
     </div>
   </div>
 
@@ -201,21 +201,16 @@ if (isset($_POST['g-recaptcha-response']) && !empty($_POST['g-recaptcha-response
 
   <div class="unit unit-s-1 unit-m-1-3-1 unit-l-1-3-1">
   <div class="unit-spacer">
-    <section class="main">
-				<div class="custom-calendar-wrap">
-					<div id="custom-inner" class="custom-inner">
-						<div class="custom-header clearfix">
-							<nav>
-								<span id="custom-prev" class="custom-prev"></span>
-								<span id="custom-next" class="custom-next"></span>
-							</nav>
-							<h2 id="custom-month" class="custom-month"></h2>
-							<h3 id="custom-year" class="custom-year"></h3>
-						</div>
-						<div id="calendar" class="fc-calendar-container"></div>
-					</div>
-				</div>
-			</section>
+<section class="main">
+
+  <ul class="side-bar-menu" style="padding:0px;">
+    <li><a href="../sponsor">Sponsors &amp; Exhibitors</a></li>
+    <li><a href="../symposium">Symposium &amp; Workshop</a></li>
+  </ul>
+
+</section>
+
+<br><br>
    
 
 <h2>Upcoming Dates</h2>
@@ -223,39 +218,7 @@ if (isset($_POST['g-recaptcha-response']) && !empty($_POST['g-recaptcha-response
 <div class="grid events">
 <div class="unit unit-s-1 unit-m-1-4 unit-l-1-4">
   <div class="date">
-    <div class="past">Apr. 28, 2017</div>
-    Jun. 9, 2017
-  </div>
-</div>
-
-<div class="unit unit-s-1 unit-m-3-4 unit-l-3-4">
-  <div class="unit-spacer">
-     <div class="past past-text">Extended Paper Submission Deadline</div>
-     Final Extended Paper Submission Deadline
-  </div>
-</div>
-</div>
-
-<div class="grid events">
-<div class="unit unit-s-1 unit-m-1-4 unit-l-1-4">
-  <div class="date">
-    <div class="past">May 15, 2017</div>
-    Jun. 16, 2017
-  </div>
-</div>
-
-<div class="unit unit-s-1 unit-m-3-4 unit-l-3-4">
-  <div class="unit-spacer">
-    <div class="past past-text">Extended Notification of Authors</div>
-    Final Extended Notification of Authors
-  </div>
-</div>
-</div>
-
-<div class="grid events">
-<div class="unit unit-s-1 unit-m-1-4 unit-l-1-4">
-  <div class="date">
-    <div class="past">May 26, 2017</div>
+    <div class="past">May. 26, 2017</div>
     Jul. 14, 2017
   </div>
 </div>
@@ -264,6 +227,38 @@ if (isset($_POST['g-recaptcha-response']) && !empty($_POST['g-recaptcha-response
   <div class="unit-spacer">
     <div class="past past-text">Final Version of Accepted Submissions Deadline</div>
     Final Version of Accepted Submissions Deadline
+  </div>
+</div>
+</div>
+
+<div class="grid events">
+<div class="unit unit-s-1 unit-m-1-4 unit-l-1-4">
+  <div class="date">
+    <div class="past">Jun. 23, 2017</div>
+    Jul. 14, 2017
+  </div>
+</div>
+
+<div class="unit unit-s-1 unit-m-3-4 unit-l-3-4">
+  <div class="unit-spacer">
+     <div class="past past-text">Registration Deadline for Authors</div>
+     Final Registration Deadline for Authors
+  </div>
+</div>
+</div>
+
+<div class="grid events">
+<div class="unit unit-s-1 unit-m-1-4 unit-l-1-4">
+  <div class="date">
+    <!-- <div class="past">May 15, 2017</div> -->
+    Aug. 21 - 23, 2017
+  </div>
+</div>
+
+<div class="unit unit-s-1 unit-m-3-4 unit-l-3-4">
+  <div class="unit-spacer">
+    <!-- <div class="past past-text">Extended Notification of Authors</div> -->
+    Conference Dates
   </div>
 </div>
 </div>
