@@ -310,15 +310,47 @@ mail($your_email,$your_subject,$message,$your_headers);
 <div class="grid events">
 <div class="unit unit-s-1 unit-m-1-4 unit-l-1-4">
   <div class="date">
-    <!-- <div class="past">Apr. 28, 2017</div> -->
-    Jun. 12-14, 2018
+    <!-- <div class="past">May. 26, 2018</div> -->
+    Dec. 1, 2017
   </div>
 </div>
 
 <div class="unit unit-s-1 unit-m-3-4 unit-l-3-4">
   <div class="unit-spacer">
-    <!--  <div class="past past-text">Extended Paper Submission Deadline</div> -->
-     Conference Dates
+    <!-- <div class="past past-text">Final Version of Accepted Submissions Deadline</div> -->
+    Paper Submission Deadline
+  </div>
+</div>
+</div>
+
+<div class="grid events">
+<div class="unit unit-s-1 unit-m-1-4 unit-l-1-4">
+  <div class="date">
+    <!-- <div class="past">Jun. 23, 2018</div> -->
+    Dec. 22, 2017
+  </div>
+</div>
+
+<div class="unit unit-s-1 unit-m-3-4 unit-l-3-4">
+  <div class="unit-spacer">
+     <!-- <div class="past past-text">Registration Deadline for Authors</div> -->
+     Notification to Authors
+  </div>
+</div>
+</div>
+
+<div class="grid events">
+<div class="unit unit-s-1 unit-m-1-4 unit-l-1-4">
+  <div class="date">
+    <!-- <div class="past">May 15, 2018</div> -->
+    Jan. 29, 2018
+  </div>
+</div>
+
+<div class="unit unit-s-1 unit-m-3-4 unit-l-3-4">
+  <div class="unit-spacer">
+    <!-- <div class="past past-text">Extended Notification of Authors</div> -->
+    Early-Bird Registration
   </div>
 </div>
 </div>
