@@ -104,8 +104,9 @@
 .section .title{
   font-family: 'Merriweather', sans-serif;
 }
-.table h5{
+.table h5, .table h5 a{
   font-family: 'Merriweather', sans-serif;
+  color:#576BB1;
 }
 .and , .and:hover{
   line-height: 100%;
@@ -120,6 +121,19 @@
 }
 .logos{
   text-align: center;
+}
+.section-legend{
+  color:#fff;
+  text-transform: uppercase;
+  padding: 2px 5px;
+  font-size: 80%;
+  margin-top:10px;
+  background-color: #576BB1;
+  font-weight: bold;
+
+}
+h5 a{
+  
 }
 </style>
   </head>
@@ -228,7 +242,8 @@
                 </tr>
                 <tr>
                   <td class="time"><h6>9:15 AM - 10:00 AM</h6></td>      
-                  <td><h5><a href="#Dr. Dana Grecov">Novel High Performance Lubricants for Industrial and Biomedical Applications</a><br>
+                  <td><span class="section-legend"><small>Keynote Lecture</small></span>
+                      <h5><a href="#Dr. Dana Grecov">Novel High Performance Lubricants for Industrial and Biomedical Applications</a><br>
                       <small>Dr. Dana Grecov, University of British Columbia, Canada</small></h5>
                   </td>
                   <td>-</td>      
@@ -236,7 +251,8 @@
                 </tr>
                 <tr>
                   <td class="time"><h6>10:00 AM - 10:45 AM</h6></td>      
-                  <td><h5><a href="#Dr. Michael Fowler">Power-to-Gas Pathways to a Fossil Free Energy System</a><br>
+                  <td><span class="section-legend"><small>Keynote Lecture</small></span>
+                      <h5><a href="#Dr. Michael Fowler">Power-to-Gas Pathways to a Fossil Free Energy System</a><br>
                       <small>Dr. Michael Fowler, University of Waterloo, Canada</small></h5>
                   </td>
                   <td>-</td>      
@@ -248,22 +264,29 @@
                 </tr>
                 <tr>
                   <td class="time"><h6>11:05 AM - 12:05 PM</h6></td>      
-                  <td><h5><a href="#CFD I">CFD I</a></h5>
+                  <td><span class="section-legend"><small>Session</small></span>
+                      <h5><a href="#CFD I">CFD I</a></h5>
                   </td>
                   <td class="time"><h6>11:05 AM - 12:05 PM</h6></td>      
-                  <td><h5><a href="#Energy Storage">Energy Storage</a></h5>
+                  <td><span class="section-legend"><small>Session</small></span>
+                      <h5><a href="#Energy Storage">Energy Storage</a></h5>
                   </td>
                 </tr>
                 <tr class="break">
-                  <td class="time"><h6>12:05 PM - 1:05 PM</h6></td>      
+                  <td class="time"><h6>12:05 PM - 12:10 PM</h6></td>      
+                  <td colspan="3"><h6>Group Photo - Please come to the registration desk to take the photo.</h6></td>
+                </tr>
+                <tr class="break">
+                  <td class="time"><h6>12:10 PM - 1:05 PM</h6></td>      
                   <td colspan="3"><h6>Lunch</h6></td>
                 </tr>
                  <tr>
                   <td class="time"><h6>1:05 PM - 2:55 PM</h6></td>      
-                  <td><h5><a href="#CFD II">CFD II</a></h5>
+                  <td><span class="section-legend"><small>Session</small></span>
+                      <h5><a href="#CFD II">CFD II</a></h5>
                   </td>
                   <td class="time"><h6>1:05 PM - 2:50 PM</h6></td>      
-                  <td><h5><a href="#Fluid flow, heat and mass transfer equipment">Fluid Flow, Heat and Mass Transfer Equipment</a></h5>
+                  <td><span class="section-legend"><small>Session</small></span><h5><a href="#Fluid flow, heat and mass transfer equipment">Fluid Flow, Heat and Mass Transfer Equipment</a></h5>
                   </td>
                 </tr>
                 <tr class="break">
@@ -272,10 +295,12 @@
                 </tr>
                  <tr>
                   <td class="time"><h6>3:15 PM - 5:35 PM</h6></td>      
-                  <td><h5><a href="#CFD III">CFD III</a></h5>
+                  <td><span class="section-legend"><small>Session</small></span>
+                    <h5><a href="#CFD III">CFD III</a></h5>
                   </td>
                   <td class="time"><h6>3:15 PM - 4:50 PM</h6></td>      
-                  <td><h5><a href="#Transport phenomena in porous media">Transport Phenomena in Porous Media</a></h5>
+                  <td><span class="section-legend"><small>Session</small></span>
+                      <h5><a href="#Transport phenomena in porous media">Transport Phenomena in Porous Media</a></h5>
                   </td>
                 </tr>
                 </tbody>
@@ -1382,13 +1407,15 @@ Operator of the province, and 3) Providing pure hydrogen to a fuel cell vehicle 
                 </tr>
                 <tr>
                   <td class="time"><h6>9:00 AM - 9:45 AM</h6></td>      
-                  <td><h5><a href="#Dr. Aimy Bazylak">Pore Network Modelling and in Situ Imaging to Investigate Transport in Polymer Electrolyte Membrane Fuel Cells and Electrolyzers</a><br>
+                  <td><span class="section-legend"><small>Keynote Lecture</small></span>
+                      <h5><a href="#Dr. Aimy Bazylak">Pore Network Modelling and in Situ Imaging to Investigate Transport in Polymer Electrolyte Membrane Fuel Cells and Electrolyzers</a><br>
                       <small>Dr. Aimy Bazylak, University of Toronto, Canada</small></h5>
                   </td>
                 </tr>
                 <tr>
                   <td class="time"><h6>9:45 AM - 10:30 AM</h6></td>      
-                  <td><h5><a href="#TBA">TBA</a><br>
+                  <td><span class="section-legend"><small>Keynote Lecture</small></span>
+                      <h5><a href="#TBA">TBA</a><br>
                       <small>TBA</small></h5>
                   </td>
                 </tr>
@@ -1398,12 +1425,14 @@ Operator of the province, and 3) Providing pure hydrogen to a fuel cell vehicle 
                 </tr>
                 <tr>
                   <td class="time"><h6>10:30 AM - 11:10 AM</h6></td>      
-                  <td><h5><a href="#Poster Session">Poster Session</a></h5>
+                  <td><span class="section-legend"><small>Session</small></span>
+                      <h5><a href="#Poster Session">Poster Session</a></h5>
                   </td>
                 </tr>
                 <tr>
                   <td class="time"><h6>11:10 AM - 12:30 PM</h6></td>      
-                  <td><h5><a href="#Fluid Flow">Fluid Flow</a></h5>
+                  <td><span class="section-legend"><small>Session</small></span>
+                      <h5><a href="#Fluid Flow">Fluid Flow</a></h5>
                   </td>
                 </tr>
                 <tr class="break">
@@ -1412,7 +1441,8 @@ Operator of the province, and 3) Providing pure hydrogen to a fuel cell vehicle 
                 </tr>
                  <tr>
                   <td class="time"><h6>1:30 PM - 2:50 PM</h6></td>      
-                  <td><h5><a href="#Heat Transfer">Heat transfer</a></h5>
+                  <td><span class="section-legend"><small>Session</small></span>
+                      <h5><a href="#Heat Transfer">Heat transfer</a></h5>
                   </td>
                 </tr>
                 <tr class="break">
@@ -1421,7 +1451,8 @@ Operator of the province, and 3) Providing pure hydrogen to a fuel cell vehicle 
                 </tr>
                  <tr>
                   <td class="time"><h6>3:10 PM - 4:20 PM</h6></td>      
-                  <td><h5><a href="#Two and Multiphase Flow and Heat Transfer">Two and multiphase flow and heat transfer</a></h5>
+                  <td><span class="section-legend"><small>Session</small></span>
+                      <h5><a href="#Two and Multiphase Flow and Heat Transfer">Two and multiphase flow and heat transfer</a></h5>
                   </td>
                 </tr>
                 </tbody>
