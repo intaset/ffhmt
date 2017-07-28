@@ -132,9 +132,7 @@
   font-weight: bold;
 
 }
-h5 a{
-  
-}
+
 </style>
   </head>
 
@@ -281,24 +279,24 @@ h5 a{
                   <td colspan="3"><h6>Lunch</h6></td>
                 </tr>
                  <tr>
-                  <td class="time"><h6>1:05 PM - 2:55 PM</h6></td>      
+                  <td class="time"><h6>1:05 PM - 3:15 PM</h6></td>      
                   <td><span class="section-legend"><small>Session</small></span>
                       <h5><a href="#CFD II">CFD II</a></h5>
                   </td>
-                  <td class="time"><h6>1:05 PM - 2:50 PM</h6></td>      
+                  <td class="time"><h6>1:05 PM - 3:10 PM</h6></td>      
                   <td><span class="section-legend"><small>Session</small></span><h5><a href="#Fluid flow, heat and mass transfer equipment">Fluid Flow, Heat and Mass Transfer Equipment</a></h5>
                   </td>
                 </tr>
                 <tr class="break">
-                  <td class="time"><h6>2:55 PM - 3:15 PM</h6></td>      
+                  <td class="time"><h6>3:15 PM - 3:35</h6></td>      
                   <td colspan="3"><h6>Coffee Break</h6></td>
                 </tr>
                  <tr>
-                  <td class="time"><h6>3:15 PM - 5:35 PM</h6></td>      
+                  <td class="time"><h6>3:35 PM - 5:55 PM</h6></td>      
                   <td><span class="section-legend"><small>Session</small></span>
                     <h5><a href="#CFD III">CFD III</a></h5>
                   </td>
-                  <td class="time"><h6>3:15 PM - 4:50 PM</h6></td>      
+                  <td class="time"><h6>3:35 PM - 4:55 PM</h6></td>      
                   <td><span class="section-legend"><small>Session</small></span>
                       <h5><a href="#Transport phenomena in porous media">Transport Phenomena in Porous Media</a></h5>
                   </td>
@@ -637,7 +635,7 @@ Operator of the province, and 3) Providing pure hydrogen to a fuel cell vehicle 
 <a id="CFD II"></a>
 <div class="section">
 <p class="legend">Session</p>
-<h6 class="info">1:05 PM - 2:55 PM | Room 1</h6>
+<h6 class="info">1:05 PM - 3:15 PM | Room 1</h6>
 <h3 class="title">CFD II<br>
 <small>Session Chair: Dr. Hongyi Xu, Fudan University, China</small></h3>
 <br>
@@ -797,6 +795,32 @@ Operator of the province, and 3) Providing pure hydrogen to a fuel cell vehicle 
 </div> <!-- Individual Paper Ends-->
 
 
+<div class="panel panel-default"><!-- Individual Paper Starts-->
+    <div class="panel-heading" role="tab" id="heading192">
+      <h4 class="panel-title">
+        <a  class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse192" aria-expanded="false" aria-controls="collapse192">Heavy Fuel Oil Droplet Breakup and Dispersion Study<br></a>
+        <small>Gerald Schneider, University of Waterloo, Canada</small>
+      </h4>
+    </div>
+
+    <div id="collapse192" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading192">
+      <div class="panel-body">
+        <dl class="dl-horizontal">
+          <dt>Time</dt>
+          <dd>2:55 - 3:15</dd>
+          <dt>Authors</dt>
+          <dd>Masoud Darbandi, Ali Fatin, Gerry E. Schneider</dd>
+          <dt>Abstract</dt>
+          <dd>The impact of flow swirl on heavy fuel oil (HFO) droplet breakup and dispersion is investigated using the finite-volume method. The numerical framework considers suitable models to predict the droplets’ breakups and their dispersions affected by their interaction with turbulence. The validation of chosen models is carried out by comparing the current results with those of previous numerical studies. After validation procedure, three different flow conditions are constructed to expand the study to various swirl number influences. The aim is to investigate the interaction of HFO spraying with the crossed axial swirling flow. The results show that the droplet Sauter mean diameter decreases continuously and the spray becomes finer as the swirling flow strength increases. Dispersion of the finer spray grows up and the spray becomes wider for the stronger swirling flow conditions. Also, the focus on the droplets’ concentration shows that the droplets’ concentration decreases for higher swirl number flows. This reduction is mainly due to the droplets’ dispersion into a larger volume of space. In other words, the spray’s width becomes much wider by increasing the swirling influences. It can be concluded that the strong swirling flow can improve the combustion quality of HFO via improving the mixing process and also via controlling the flame structure. The quantifications are performed subsequently.  </dd>
+          <dt>Keywords</dt>
+          <dd>Heavy Fuel Oil, Swirling Flow, Droplet Breakup, Sauter Mean Diameter (SMD), Dispersion</dd>
+        </dl>
+      </div>
+    </div>
+</div> <!-- Individual Paper Ends-->
+
+
+
 
 
 </div> <!-- Paper Group ENDS-->
@@ -811,7 +835,7 @@ Operator of the province, and 3) Providing pure hydrogen to a fuel cell vehicle 
 <a id="Fluid flow, heat and mass transfer equipment">.</a>
 <div class="section">
 <p class="legend">Session</p>
-<h6 class="info">1:05 PM - 2:50 PM | Room 2</h6>
+<h6 class="info">1:05 PM - 3:10 PM | Room 2</h6>
 <h3 class="title">Fluid Flow, Heat and Mass Transfer Equipment<br>
 <small>Session Chairs:
 <br>Dr. Weiqun Liu, China University of Mining and Technology, China
@@ -1045,6 +1069,30 @@ Operator of the province, and 3) Providing pure hydrogen to a fuel cell vehicle 
     </div>
 </div> <!-- Individual Paper Ends-->
 
+<div class="panel panel-default"><!-- Individual Paper Starts-->
+    <div class="panel-heading" role="tab" id="heading159">
+      <h4 class="panel-title">
+        <a  class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse159" aria-expanded="false" aria-controls="collapse159">Numerical Analysis of Flow and Mass Transfer in Humid Fractal Surfaces<br></a>
+        <small>Thiago Cardoso de Souza, Eindhoven University of Technology, Netherlands</small>
+      </h4>
+    </div>
+
+    <div id="collapse159" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading159">
+      <div class="panel-body">
+        <dl class="dl-horizontal">
+          <dt>Time</dt>
+          <dd>2:50 - 3:10</dd>
+          <dt>Authors</dt>
+          <dd>T. Cardoso de Souza, S.J.F. Erich</dd>
+          <dt>Abstract</dt>
+          <dd>In this paper we investigate the convective mass transfer process between a laminar air flow passing over a humid fractal surface. To determine the mass transfer convection coefficient, hm, in complex ‘wetted’ fractal geometries, a simple numerical method is considered to obtain the rate of evaporation for any type of surface. This approach is validated considering two benchmark cases commonly discussed in laminar boundary layer theory, e.g., the flow over a flat plate and the flow over a cylinder. By considering different types of fractal geometries and different air flow speeds, we characterize the effects that such multi-scale fractals have on the convective mass transport driving the surface averaged rate of evaporation, nA. The results show the potential of fractals surfaces to enhance evaporation, where depending on the fractal shape considered, for instance, an increase by more than a factor of 3 in the rate of evaporation was obtained in comparison with a reference case where no fractals structures are imposed.</dd>
+          <dt>Keywords</dt>
+          <dd>Multi-scale fractal forcing, evaporation enhancement, laminar flows</dd>
+        </dl>
+      </div>
+    </div>
+</div> <!-- Individual Paper Ends-->
+
 
 </div> <!-- Paper Group ENDS-->
 
@@ -1056,7 +1104,7 @@ Operator of the province, and 3) Providing pure hydrogen to a fuel cell vehicle 
 <a id="CFD III"></a>
 <div class="section">
 <p class="legend">Session</p>
-<h6 class="info">3:15 PM - 5:35 PM | Room 1</h6>
+<h6 class="info">3:35 PM - 5:55 PM | Room 1</h6>
 <h3 class="title">CFD III<br>
 <small>Session Chairs: Dr. Tong Wang, Shanghai Jiao Tong University, China 
   <br>& Dr. Alexander Liberson, Rochester Institute of Technology, USA</small></h3>
@@ -1078,7 +1126,7 @@ Operator of the province, and 3) Providing pure hydrogen to a fuel cell vehicle 
       <div class="panel-body">
         <dl class="dl-horizontal">
           <dt>Time</dt>
-          <dd>3:15 - 3:35</dd>
+          <dd>3:35 - 3:55</dd>
           <dt>Authors</dt>
           <dd>Ting Yu, Yinqing Zu, Hongyi Xu</dd>
           <dt>Abstract</dt>
@@ -1102,7 +1150,7 @@ Operator of the province, and 3) Providing pure hydrogen to a fuel cell vehicle 
       <div class="panel-body">
         <dl class="dl-horizontal">
           <dt>Time</dt>
-          <dd>3:35 - 3:55</dd>
+          <dd>3:55 - 4:15</dd>
           <dt>Authors</dt>
           <dd>Beena D. Baloni, Sonu P. Kumar, S. A. Channiwala</dd>
           <dt>Abstract</dt>
@@ -1126,7 +1174,7 @@ Operator of the province, and 3) Providing pure hydrogen to a fuel cell vehicle 
       <div class="panel-body">
         <dl class="dl-horizontal">
           <dt>Time</dt>
-          <dd>3:55 - 4:15</dd>
+          <dd>4:15 - 4:35</dd>
           <dt>Authors</dt>
           <dd>Beena D. Baloni, Kadiyam Vijay Kumar, S. A. Channiwala</dd>
           <dt>Abstract</dt>
@@ -1150,7 +1198,7 @@ Operator of the province, and 3) Providing pure hydrogen to a fuel cell vehicle 
       <div class="panel-body">
         <dl class="dl-horizontal">
           <dt>Time</dt>
-          <dd>4:15 - 4:35</dd>
+          <dd>4:35 - 4:55</dd>
           <dt>Authors</dt>
           <dd>Beena D. Baloni, Ashutosh Singh, S. A. Channiwala</dd>
           <dt>Abstract</dt>
@@ -1174,7 +1222,7 @@ Operator of the province, and 3) Providing pure hydrogen to a fuel cell vehicle 
       <div class="panel-body">
         <dl class="dl-horizontal">
           <dt>Time</dt>
-          <dd>4:35 - 4:55</dd>
+          <dd>4:55 - 5:15</dd>
           <dt>Authors</dt>
           <dd>Vijay Shankar, Andreas Bengtson, Victor Fransson, Carl-Eric Hagentoft</dd>
           <dt>Abstract</dt>
@@ -1198,7 +1246,7 @@ Operator of the province, and 3) Providing pure hydrogen to a fuel cell vehicle 
       <div class="panel-body">
         <dl class="dl-horizontal">
           <dt>Time</dt>
-          <dd>4:55 - 5:15</dd>
+          <dd>5:15 - 5:35</dd>
           <dt>Authors</dt>
           <dd>Vijay Shankar, Anton Lundberg, Kristian Frenander, Lars Landström, Taraka Pamidi, 
 Örjan Johansson</dd>
@@ -1223,7 +1271,7 @@ Operator of the province, and 3) Providing pure hydrogen to a fuel cell vehicle 
       <div class="panel-body">
         <dl class="dl-horizontal">
           <dt>Time</dt>
-          <dd>5:15 - 5:35</dd>
+          <dd>5:35 - 5:55</dd>
           <dt>Authors</dt>
           <dd>Vijay Shankar, Andreas Bengtson, Victor Fransson, Carl-Eric Hagentoft</dd>
           <dt>Abstract</dt>
@@ -1249,7 +1297,7 @@ Operator of the province, and 3) Providing pure hydrogen to a fuel cell vehicle 
 <a id="Transport phenomena in porous media">.</a>
 <div class="section">
 <p class="legend">Session</p>
-<h6 class="info">3:15 PM - 4:35 PM | Room 1</h6>
+<h6 class="info">3:35 PM - 4:55 PM | Room 1</h6>
 <h3 class="title">Transport Phenomena in Porous Media<br>
 <small>Session Chair: Dr. Behnam Mostajeran Goortani, University of Isfahan, Iran</small></h3>
 <br>
@@ -1270,7 +1318,7 @@ Operator of the province, and 3) Providing pure hydrogen to a fuel cell vehicle 
       <div class="panel-body">
         <dl class="dl-horizontal">
           <dt>Time</dt>
-          <dd>3:15 - 3:35</dd>
+          <dd>3:35 - 3:55</dd>
           <dt>Authors</dt>
           <dd>Rupak Banerjee, Chuzhang Han, Nan Ge, Aimy Bazylak</dd>
           <dt>Abstract</dt>
@@ -1294,7 +1342,7 @@ Operator of the province, and 3) Providing pure hydrogen to a fuel cell vehicle 
       <div class="panel-body">
         <dl class="dl-horizontal">
           <dt>Time</dt>
-          <dd>3:35 - 3:55</dd>
+          <dd>3:55 - 4:15</dd>
           <dt>Authors</dt>
           <dd>Arian Ebneyamini, Hoda Azimi, Jules Thibault*, F. Handan Tezel</dd>
           <dt>Abstract</dt>
@@ -1318,7 +1366,7 @@ Operator of the province, and 3) Providing pure hydrogen to a fuel cell vehicle 
       <div class="panel-body">
         <dl class="dl-horizontal">
           <dt>Time</dt>
-          <dd>3:55 - 4:05</dd>
+          <dd>4:15 - 4:25</dd>
           <dt>Authors</dt>
           <dd>Behnam Dastvareh, Jalel Azaiez</dd>
           <!--  <dt>Abstract</dt>
@@ -1342,7 +1390,7 @@ Operator of the province, and 3) Providing pure hydrogen to a fuel cell vehicle 
       <div class="panel-body">
         <dl class="dl-horizontal">
           <dt>Time</dt>
-          <dd>4:05 - 4:15</dd>
+          <dd>4:25 - 4:35</dd>
           <dt>Authors</dt>
           <dd>Mohammad Zargartalebi, Jalel Azaiez</dd>
           <!--  <dt>Abstract</dt>
@@ -1366,7 +1414,7 @@ Operator of the province, and 3) Providing pure hydrogen to a fuel cell vehicle 
       <div class="panel-body">
         <dl class="dl-horizontal">
           <dt>Time</dt>
-          <dd>4:15 - 4:35</dd>
+          <dd>4:35 - 4:55</dd>
           <dt>Authors</dt>
           <dd>W. Q. Liu, Y. S. Li, F. L. Li</dd>
           <dt>Abstract</dt>
@@ -1641,7 +1689,8 @@ Operator of the province, and 3) Providing pure hydrogen to a fuel cell vehicle 
     </div>
 </div> <!-- Individual Paper Ends-->
 
-<div class="panel panel-default"><!-- Individual Paper Starts-->
+<!-- Individual Paper Starts-->
+<!-- <div class="panel panel-default">
     <div class="panel-heading" role="tab" id="heading148">
       <h4 class="panel-title">
         <a  class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse148" aria-expanded="false" aria-controls="collapse148">Research on grain storage ecosystem based on the multi-fields coupling theory<br></a>
@@ -1654,14 +1703,14 @@ Operator of the province, and 3) Providing pure hydrogen to a fuel cell vehicle 
         <dl class="dl-horizontal">
           <dt>Authors</dt>
           <dd>Zidan Wu, Zhongjie Zhang, Jun Yin, Xiaomeng Wang, Xiaoming Wu, Guixiang Chen, Yuancheng Wang, Zhongmin Wan, Yu Liu </dd>
-          <!--  <dt>Abstract</dt>
+           <dt>Abstract</dt>
           <dd></dd>
           <dt>Keywords</dt>
-          <dd></dd> -->
+          <dd></dd>
         </dl>
       </div>
     </div>
-</div> <!-- Individual Paper Ends-->
+</div> --> <!-- Individual Paper Ends-->
 
 <div class="panel panel-default"><!-- Individual Paper Starts-->
     <div class="panel-heading" role="tab" id="heading147">
@@ -1858,28 +1907,6 @@ of four perforated plates flow conditioners<br></a>
           <dd></dd>
           <dt>Keywords</dt>
           <dd></dd> -->
-        </dl>
-      </div>
-    </div>
-</div> <!-- Individual Paper Ends-->
-
-<div class="panel panel-default"><!-- Individual Paper Starts-->
-    <div class="panel-heading" role="tab" id="heading159">
-      <h4 class="panel-title">
-        <a  class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse159" aria-expanded="false" aria-controls="collapse159">Numerical Analysis of Flow and Mass Transfer in Humid Fractal Surfaces<br></a>
-        <small>Thiago Cardoso de Souza, Eindhoven University of Technology, Netherlands</small>
-      </h4>
-    </div>
-
-    <div id="collapse159" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading159">
-      <div class="panel-body">
-        <dl class="dl-horizontal">
-          <dt>Authors</dt>
-          <dd>T. Cardoso de Souza, S.J.F. Erich</dd>
-          <dt>Abstract</dt>
-          <dd>In this paper we investigate the convective mass transfer process between a laminar air flow passing over a humid fractal surface. To determine the mass transfer convection coefficient, hm, in complex ‘wetted’ fractal geometries, a simple numerical method is considered to obtain the rate of evaporation for any type of surface. This approach is validated considering two benchmark cases commonly discussed in laminar boundary layer theory, e.g., the flow over a flat plate and the flow over a cylinder. By considering different types of fractal geometries and different air flow speeds, we characterize the effects that such multi-scale fractals have on the convective mass transport driving the surface averaged rate of evaporation, nA. The results show the potential of fractals surfaces to enhance evaporation, where depending on the fractal shape considered, for instance, an increase by more than a factor of 3 in the rate of evaporation was obtained in comparison with a reference case where no fractals structures are imposed.</dd>
-          <dt>Keywords</dt>
-          <dd>Multi-scale fractal forcing, evaporation enhancement, laminar flows</dd>
         </dl>
       </div>
     </div>
