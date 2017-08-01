@@ -535,7 +535,7 @@ Operator of the province, and 3) Providing pure hydrogen to a fuel cell vehicle 
       <div class="panel-body">
         <dl class="dl-horizontal">
           <dt>Time</dt>
-          <dd>11:05 AM - 11:15 </dd>
+          <dd>11:05 - 11:15 </dd>
           <dt>Authors</dt>
           <dd>Nima Talebzadeh, Paul G. O’Brien</dd>
           <!--  <dt>Abstract</dt>
@@ -560,7 +560,7 @@ Operator of the province, and 3) Providing pure hydrogen to a fuel cell vehicle 
       <div class="panel-body">
         <dl class="dl-horizontal">
           <dt>Time</dt>
-          <dd>11:15 AM - 11:25 </dd>
+          <dd>11:15 - 11:25 </dd>
           <dt>Authors</dt>
           <dd>Ajaykrishna Ramasubramanian, Vitaliy Yurkiv, Ali Najafi, Ali Khounsay, Reza Shahbazian-Yassar, Farzad Mashayek</dd>
           <!--  <dt>Abstract</dt>
@@ -585,7 +585,7 @@ Operator of the province, and 3) Providing pure hydrogen to a fuel cell vehicle 
       <div class="panel-body">
         <dl class="dl-horizontal">
           <dt>Time</dt>
-          <dd>11:25 AM - 11:45 </dd>
+          <dd>11:25 - 11:45 </dd>
           <dt>Authors</dt>
           <dd>Pranay Shrestha, Rupak Banerjee, Jongmin Lee, Aimy Bazylak</dd>
           <dt>Abstract</dt>
@@ -611,7 +611,7 @@ Operator of the province, and 3) Providing pure hydrogen to a fuel cell vehicle 
       <div class="panel-body">
         <dl class="dl-horizontal">
           <dt>Time</dt>
-          <dd>11:45 AM - 12:05 </dd>
+          <dd>11:45 - 12:05 </dd>
           <dt>Authors</dt>
           <dd>Marek Borowiec, Arkadiusz Syta, Grzegorz Litak</dd>
           <dt>Abstract</dt>
@@ -1463,8 +1463,8 @@ Operator of the province, and 3) Providing pure hydrogen to a fuel cell vehicle 
                 <tr>
                   <td class="time"><h6>9:45 AM - 10:30 AM</h6></td>      
                   <td><span class="section-legend"><small>Keynote Lecture</small></span>
-                      <h5><a href="#TBA">TBA</a><br>
-                      <small>TBA</small></h5>
+                      <h5><a href="#Dr. Jules Thibault">TBA</a><br>
+                      <small>Dr. Jules Thibault, University of Ottawa, Canada</small></h5>
                   </td>
                 </tr>
                 <tr class="break">
@@ -1478,27 +1478,27 @@ Operator of the province, and 3) Providing pure hydrogen to a fuel cell vehicle 
                   </td>
                 </tr>
                 <tr>
-                  <td class="time"><h6>11:10 AM - 12:30 PM</h6></td>      
+                  <td class="time"><h6>11:10 AM - 12:50 PM</h6></td>      
                   <td><span class="section-legend"><small>Session</small></span>
                       <h5><a href="#Fluid Flow">Fluid Flow</a></h5>
                   </td>
                 </tr>
                 <tr class="break">
-                  <td class="time"><h6>12:30 PM - 1:30 PM</h6></td>      
+                  <td class="time"><h6>12:50 PM - 1:50 PM</h6></td>      
                   <td colspan="3"><h6>Lunch</h6></td>
                 </tr>
                  <tr>
-                  <td class="time"><h6>1:30 PM - 2:50 PM</h6></td>      
+                  <td class="time"><h6>1:50 PM - 3:10 PM</h6></td>      
                   <td><span class="section-legend"><small>Session</small></span>
                       <h5><a href="#Heat Transfer">Heat transfer</a></h5>
                   </td>
                 </tr>
                 <tr class="break">
-                  <td class="time"><h6>2:50 PM - 3:10 PM</h6></td>      
+                  <td class="time"><h6>3:10 PM - 3:30 PM</h6></td>      
                   <td colspan="3"><h6>Coffee Break</td>
                 </tr>
                  <tr>
-                  <td class="time"><h6>3:10 PM - 4:20 PM</h6></td>      
+                  <td class="time"><h6>3:30 PM - 4:20 PM</h6></td>      
                   <td><span class="section-legend"><small>Session</small></span>
                       <h5><a href="#Two and Multiphase Flow and Heat Transfer">Two and multiphase flow and heat transfer</a></h5>
                   </td>
@@ -1531,8 +1531,7 @@ Operator of the province, and 3) Providing pure hydrogen to a fuel cell vehicle 
 <p class="legend">Keynote Lecture</p>
 <h6 class="info">9:45 AM - 10:30 AM | Room 1 | Session Chair: Dr. Boguslaw Kruczek, University of Ottawa, Canada</h6>
 <h3 class="title">TBA<br>
-<small><a href="h#" target="_blank">TBA
-</a></small></h3>
+<small><a href="https://engineering.uottawa.ca/chemical/people/thibault-jules" target="_blank">Dr. Jules Thibault, University of Ottawa, Canada</a></small></h3>
 <br>
 <!-- <dl class="dl-horizontal">
   <dt>Abstract</dt>
@@ -1949,7 +1948,7 @@ of four perforated plates flow conditioners<br></a>
 <a id="Fluid Flow">.</a>
 <div class="section">
 <p class="legend">Session</p>
-<h6 class="info">11:10 AM - 12:30 PM | Room 1</h6>
+<h6 class="info">11:10 AM - 12:50 PM | Room 1</h6>
 <h3 class="title">Fluid Flow<br>
 <small>Session Chair: Dr. Aimy Bazylak, University of Toronto, Canada </small></h3>
 <br>
@@ -1970,7 +1969,7 @@ of four perforated plates flow conditioners<br></a>
       <div class="panel-body">
         <dl class="dl-horizontal">
           <dt>Time</dt>
-          <dd>1:05 - 1:25</dd>
+          <dd>11:10 - 11:30</dd>
           <dt>Authors</dt>
           <dd>Hesham A. Ibrahim, Sherif Abdou, and Wael H. Ahmed</dd>
           <dt>Abstract</dt>
@@ -1995,7 +1994,7 @@ of four perforated plates flow conditioners<br></a>
       <div class="panel-body">
         <dl class="dl-horizontal">
           <dt>Time</dt>
-          <dd>1:25 - 1:45</dd>
+          <dd>11:30 - 11:50</dd>
           <dt>Authors</dt>
           <dd>Alexander S. Liberson, Yashar Seyed Vahedein</dd>
           <dt>Abstract</dt>
@@ -2020,7 +2019,7 @@ of four perforated plates flow conditioners<br></a>
       <div class="panel-body">
         <dl class="dl-horizontal">
           <dt>Time</dt>
-          <dd>1:45 - 2:05</dd>
+          <dd>11:50 - 12:10</dd>
           <dt>Authors</dt>
           <dd>Heyan Li, Mingyang Li, Biao Ma, Jikai Liu, Liang Yu, Huizhu Li</dd>
           <dt>Abstract</dt>
@@ -2045,13 +2044,38 @@ of four perforated plates flow conditioners<br></a>
       <div class="panel-body">
         <dl class="dl-horizontal">
           <dt>Time</dt>
-          <dd>2:05 - 2:25</dd>
+          <dd>12:10 - 12:30</dd>
           <dt>Authors</dt>
           <dd>Gilbert Makanda</dd>
           <dt>Abstract</dt>
           <dd>Natural convection from a spinning sphere with temperature dependent viscosity, thermal conductivity and viscous dissipation was studied. A unique system of non-similar partial differential equations was solved using the bivariate local-linearization method (BLLM). This method use Chebyshev spectral collocation method applied in both the η and ξ directions. Similar equations in the literature are normally solved by inaccurate time-consuming finite difference methods. This work introduces a robust method for solving partial differential equations arising in heat and mass transfer. The numerical method was validated by comparison to the results previously published in the literature. The method is fully described in this article and can be used as an alternative method in solving boundary value problems. This work also presents rarely reported results of the effect of selected parameters on spin-velocity profiles g(η).</dd>
           <dt>Keywords</dt>
           <dd>Free convection, spinning sphere, local linearization</dd>
+        </dl>
+      </div>
+    </div>
+</div> <!-- Individual Paper Ends-->
+
+
+<div class="panel panel-default"><!-- Individual Paper Starts-->
+    <div class="panel-heading" role="tab" id="heading133">
+      <h4 class="panel-title">
+        <a  class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse133" aria-expanded="false" aria-controls="collapse133">Interaction Between Liquid Droplet Growth and Two-phase Pressure Drop in PEM Fuel Cell Flow Channels<br></a>
+        <small>Mehdi Mortazavi, Western New England University, USA</small>
+      </h4>
+    </div>
+
+    <div id="collapse133" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading133">
+      <div class="panel-body">
+        <dl class="dl-horizontal">
+          <dt>Time</dt>
+          <dd>12:30 - 12:50</dd>
+          <dt>Authors</dt>
+          <dd>Mehdi Mortazavi, Kazuya Tajiri</dd>
+          <dt>Abstract</dt>
+          <dd>In this paper, liquid-gas two-phase flow pressure drop in proton exchange membrane (PEM) fuel cell is studied in an ex-situ experimental setup. The two-phase flow pressure drop is measured during liquid water droplet emergence and growth on the surface of the gas diffusion layer (GDL). The two-phase flow pressure measurement is synchronized with a high speed camera that records droplet emergence and growth. Simultaneous study of droplet size and liquid-gas two-phase flow pressure drop reveals useful information which can be utilized in analyzing existing two-phase flow pressure drop models.</dd>
+          <dt>Keywords</dt>
+          <dd>PEM fuel cell, two-phase flow, pressure drop, droplet</dd>
         </dl>
       </div>
     </div>
@@ -2068,7 +2092,7 @@ of four perforated plates flow conditioners<br></a>
 <a id="Heat Transfer">.</a>
 <div class="section">
 <p class="legend">Session</p>
-<h6 class="info">1:30 PM - 2:50 PM | Room 1</h6>
+<h6 class="info">1:50 PM - 3:10 PM | Room 1</h6>
 <h3 class="title">Heat Transfer<br>
 <small>Session Chair: Dr. Mehdi Mortazavi, Western New England University, USA </small></h3>
 <br>
@@ -2088,7 +2112,7 @@ of four perforated plates flow conditioners<br></a>
       <div class="panel-body">
         <dl class="dl-horizontal">
           <dt>Time</dt>
-          <dd>1:30 - 1:50</dd>
+          <dd>1:50 - 2:10</dd>
           <dt>Authors</dt>
           <dd>Mohammadhossein Hajiyan, Shohel Mahmud, Mohammad Biglarbegian, Hussein A. Abdullah</dd>
           <dt>Abstract</dt>
@@ -2112,7 +2136,7 @@ of four perforated plates flow conditioners<br></a>
       <div class="panel-body">
         <dl class="dl-horizontal">
           <dt>Time</dt>
-          <dd>1:50 - 2:00</dd>
+          <dd>2:10 - 2:20</dd>
           <dt>Authors</dt>
           <dd>Hiroki Takiguchi, Masahiro Furuya, Takahiro Arai</dd>
           <!--  <dt>Abstract</dt>
@@ -2136,7 +2160,7 @@ of four perforated plates flow conditioners<br></a>
       <div class="panel-body">
         <dl class="dl-horizontal">
           <dt>Time</dt>
-          <dd>2:00 - 2:20</dd>
+          <dd>2:20 - 2:40</dd>
           <dt>Authors</dt>
           <dd>Marco Simonetti, Christian Caillol, Pascal Higelin, Clément Dumand, Emmanuel Revol</dd>
           <dt>Abstract</dt>
@@ -2160,7 +2184,7 @@ of four perforated plates flow conditioners<br></a>
       <div class="panel-body">
         <dl class="dl-horizontal">
           <dt>Time</dt>
-          <dd>2:20 - 2:30</dd>
+          <dd>2:40 - 2:50</dd>
           <dt>Authors</dt>
           <dd>Shu-San Hsiau, Li-Tsung Sheng, Shao-Li Chiu</dd>
           <!--  <dt>Abstract</dt>
@@ -2184,7 +2208,7 @@ of four perforated plates flow conditioners<br></a>
       <div class="panel-body">
         <dl class="dl-horizontal">
           <dt>Time</dt>
-          <dd>2:30 - 2:50</dd>
+          <dd>2:50 - 3:10</dd>
           <dt>Authors</dt>
           <dd>Mohammad Reza Tavakoli, Mahsa Farzaneh, Arash Shadlaghani</dd>
           <dt>Abstract</dt>
@@ -2208,7 +2232,7 @@ of four perforated plates flow conditioners<br></a>
 <a id="Two and Multiphase Flow and Heat Transfer">.</a>
 <div class="section">
 <p class="legend">Session</p>
-<h6 class="info">3:10 PM - 4:20 PM | Room 1</h6>
+<h6 class="info">3:30 PM - 4:20 PM | Room 1</h6>
 <h3 class="title">Two and Multiphase Flow and Heat Transfer<br>
 <small>Session Chair:  Dr. Vijay Shankar, Luleå University of Technology, Sweden </small></h3>
 <br>
@@ -2228,7 +2252,7 @@ of four perforated plates flow conditioners<br></a>
       <div class="panel-body">
         <dl class="dl-horizontal">
           <dt>Time</dt>
-          <dd>3:10 - 3:30</dd>
+          <dd>3:30 - 3:50</dd>
           <dt>Authors</dt>
           <dd>Shaker S. Bukhari, Wael H. Ahmed </dd>
           <dt>Abstract</dt>
@@ -2254,7 +2278,7 @@ Twist-Drilling<br></a>
       <div class="panel-body">
         <dl class="dl-horizontal">
           <dt>Time</dt>
-          <dd>3:30 - 3:50</dd>
+          <dd>3:50 - 4:10</dd>
           <dt>Authors</dt>
           <dd>Adam Johns, Eleanor Merson, Raphael Royer, Harvey Thompson, Jonathan Summers</dd>
           <dt>Abstract</dt>
@@ -2279,38 +2303,13 @@ Twist-Drilling<br></a>
       <div class="panel-body">
         <dl class="dl-horizontal">
           <dt>Time</dt>
-          <dd>3:50 - 4:00</dd>
+          <dd>4:10 - 4:20</dd>
           <dt>Authors</dt>
           <dd>Abdullah M. Kuraan, Victoria J. Centofanti, Yunus Ulus, Kyosung Choo</dd>
           <!--  <dt>Abstract</dt>
           <dd></dd>
           <dt>Keywords</dt>
           <dd></dd> -->
-        </dl>
-      </div>
-    </div>
-</div> <!-- Individual Paper Ends-->
-
-
-<div class="panel panel-default"><!-- Individual Paper Starts-->
-    <div class="panel-heading" role="tab" id="heading133">
-      <h4 class="panel-title">
-        <a  class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse133" aria-expanded="false" aria-controls="collapse133">Interaction Between Liquid Droplet Growth and Two-phase Pressure Drop in PEM Fuel Cell Flow Channels<br></a>
-        <small>Mehdi Mortazavi, Western New England University, USA</small>
-      </h4>
-    </div>
-
-    <div id="collapse133" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading133">
-      <div class="panel-body">
-        <dl class="dl-horizontal">
-          <dt>Time</dt>
-          <dd>4:00 - 4:20</dd>
-          <dt>Authors</dt>
-          <dd>Mehdi Mortazavi, Kazuya Tajiri</dd>
-          <dt>Abstract</dt>
-          <dd>In this paper, liquid-gas two-phase flow pressure drop in proton exchange membrane (PEM) fuel cell is studied in an ex-situ experimental setup. The two-phase flow pressure drop is measured during liquid water droplet emergence and growth on the surface of the gas diffusion layer (GDL). The two-phase flow pressure measurement is synchronized with a high speed camera that records droplet emergence and growth. Simultaneous study of droplet size and liquid-gas two-phase flow pressure drop reveals useful information which can be utilized in analyzing existing two-phase flow pressure drop models.</dd>
-          <dt>Keywords</dt>
-          <dd>PEM fuel cell, two-phase flow, pressure drop, droplet</dd>
         </dl>
       </div>
     </div>
