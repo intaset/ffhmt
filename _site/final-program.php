@@ -1297,7 +1297,7 @@ Operator of the province, and 3) Providing pure hydrogen to a fuel cell vehicle 
 <a id="Transport phenomena in porous media">.</a>
 <div class="section">
 <p class="legend">Session</p>
-<h6 class="info">3:35 PM - 4:55 PM | Room 1</h6>
+<h6 class="info">3:35 PM - 4:55 PM | Room 2</h6>
 <h3 class="title">Transport Phenomena in Porous Media<br>
 <small>Session Chair: Dr. Behnam Mostajeran Goortani, University of Isfahan, Iran</small></h3>
 <br>
