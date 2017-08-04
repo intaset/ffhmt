@@ -1484,21 +1484,21 @@ Operator of the province, and 3) Providing pure hydrogen to a fuel cell vehicle 
                   </td>
                 </tr>
                 <tr class="break">
-                  <td class="time"><h6>12:50 PM - 1:50 PM</h6></td>      
+                  <td class="time"><h6>12:50 PM - 2:00 PM</h6></td>      
                   <td colspan="3"><h6>Lunch</h6></td>
                 </tr>
                  <tr>
-                  <td class="time"><h6>1:50 PM - 3:10 PM</h6></td>      
+                  <td class="time"><h6>2:00 PM - 3:20 PM</h6></td>      
                   <td><span class="section-legend"><small>Session</small></span>
                       <h5><a href="#Heat Transfer">Heat transfer</a></h5>
                   </td>
                 </tr>
                 <tr class="break">
-                  <td class="time"><h6>3:10 PM - 3:30 PM</h6></td>      
+                  <td class="time"><h6>3:20 PM - 3:40 PM</h6></td>      
                   <td colspan="3"><h6>Coffee Break</td>
                 </tr>
                  <tr>
-                  <td class="time"><h6>3:30 PM - 4:20 PM</h6></td>      
+                  <td class="time"><h6>3:40 PM - 4:30 PM</h6></td>      
                   <td><span class="section-legend"><small>Session</small></span>
                       <h5><a href="#Two and Multiphase Flow and Heat Transfer">Two and multiphase flow and heat transfer</a></h5>
                   </td>
@@ -2092,7 +2092,7 @@ of four perforated plates flow conditioners<br></a>
 <a id="Heat Transfer">.</a>
 <div class="section">
 <p class="legend">Session</p>
-<h6 class="info">1:50 PM - 3:10 PM | Room 1</h6>
+<h6 class="info">2:00 PM - 3:20 PM | Room 1</h6>
 <h3 class="title">Heat Transfer<br>
 <small>Session Chair: Dr. Mehdi Mortazavi, Western New England University, USA </small></h3>
 <br>
@@ -2112,7 +2112,7 @@ of four perforated plates flow conditioners<br></a>
       <div class="panel-body">
         <dl class="dl-horizontal">
           <dt>Time</dt>
-          <dd>1:50 - 2:10</dd>
+          <dd>2:00 - 2:20</dd>
           <dt>Authors</dt>
           <dd>Mohammadhossein Hajiyan, Shohel Mahmud, Mohammad Biglarbegian, Hussein A. Abdullah</dd>
           <dt>Abstract</dt>
@@ -2136,7 +2136,7 @@ of four perforated plates flow conditioners<br></a>
       <div class="panel-body">
         <dl class="dl-horizontal">
           <dt>Time</dt>
-          <dd>2:10 - 2:20</dd>
+          <dd>2:20 - 2:30</dd>
           <dt>Authors</dt>
           <dd>Hiroki Takiguchi, Masahiro Furuya, Takahiro Arai</dd>
           <!--  <dt>Abstract</dt>
@@ -2160,7 +2160,7 @@ of four perforated plates flow conditioners<br></a>
       <div class="panel-body">
         <dl class="dl-horizontal">
           <dt>Time</dt>
-          <dd>2:20 - 2:40</dd>
+          <dd>2:30 - 2:50</dd>
           <dt>Authors</dt>
           <dd>Marco Simonetti, Christian Caillol, Pascal Higelin, Clément Dumand, Emmanuel Revol</dd>
           <dt>Abstract</dt>
@@ -2184,7 +2184,7 @@ of four perforated plates flow conditioners<br></a>
       <div class="panel-body">
         <dl class="dl-horizontal">
           <dt>Time</dt>
-          <dd>2:40 - 2:50</dd>
+          <dd>2:50 - 3:00</dd>
           <dt>Authors</dt>
           <dd>Shu-San Hsiau, Li-Tsung Sheng, Shao-Li Chiu</dd>
           <!--  <dt>Abstract</dt>
@@ -2208,7 +2208,7 @@ of four perforated plates flow conditioners<br></a>
       <div class="panel-body">
         <dl class="dl-horizontal">
           <dt>Time</dt>
-          <dd>2:50 - 3:10</dd>
+          <dd>3:00 - 3:20</dd>
           <dt>Authors</dt>
           <dd>Mohammad Reza Tavakoli, Mahsa Farzaneh, Arash Shadlaghani</dd>
           <dt>Abstract</dt>
@@ -2232,7 +2232,7 @@ of four perforated plates flow conditioners<br></a>
 <a id="Two and Multiphase Flow and Heat Transfer">.</a>
 <div class="section">
 <p class="legend">Session</p>
-<h6 class="info">3:30 PM - 4:20 PM | Room 1</h6>
+<h6 class="info">3:40 PM - 4:30 PM | Room 1</h6>
 <h3 class="title">Two and Multiphase Flow and Heat Transfer<br>
 <small>Session Chair:  Dr. Vijay Shankar, Luleå University of Technology, Sweden </small></h3>
 <br>
@@ -2252,7 +2252,7 @@ of four perforated plates flow conditioners<br></a>
       <div class="panel-body">
         <dl class="dl-horizontal">
           <dt>Time</dt>
-          <dd>3:30 - 3:50</dd>
+          <dd>3:40 - 4:00</dd>
           <dt>Authors</dt>
           <dd>Shaker S. Bukhari, Wael H. Ahmed </dd>
           <dt>Abstract</dt>
@@ -2278,7 +2278,7 @@ Twist-Drilling<br></a>
       <div class="panel-body">
         <dl class="dl-horizontal">
           <dt>Time</dt>
-          <dd>3:50 - 4:10</dd>
+          <dd>4:00 - 4:20</dd>
           <dt>Authors</dt>
           <dd>Adam Johns, Eleanor Merson, Raphael Royer, Harvey Thompson, Jonathan Summers</dd>
           <dt>Abstract</dt>
@@ -2303,7 +2303,7 @@ Twist-Drilling<br></a>
       <div class="panel-body">
         <dl class="dl-horizontal">
           <dt>Time</dt>
-          <dd>4:10 - 4:20</dd>
+          <dd>4:20 - 4:30</dd>
           <dt>Authors</dt>
           <dd>Abdullah M. Kuraan, Victoria J. Centofanti, Yunus Ulus, Kyosung Choo</dd>
           <!--  <dt>Abstract</dt>
