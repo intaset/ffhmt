@@ -1334,7 +1334,7 @@ Operator of the province, and 3) Providing pure hydrogen to a fuel cell vehicle 
     <div class="panel-heading" role="tab" id="heading171">
       <h4 class="panel-title">
         <a  class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse171" aria-expanded="false" aria-controls="collapse171">Modelling of Mixed Matrix Membranes Using a Resistance-Based Model<br></a>
-        <small>Arian  Ebneyamini, University of Ottawa, Canada</small>
+        <small>Jules Thibault, University of Ottawa, Canada</small>
       </h4>
     </div>
 
@@ -1344,7 +1344,7 @@ Operator of the province, and 3) Providing pure hydrogen to a fuel cell vehicle 
           <dt>Time</dt>
           <dd>3:55 - 4:15</dd>
           <dt>Authors</dt>
-          <dd>Arian Ebneyamini, Hoda Azimi, Jules Thibault*, F. Handan Tezel</dd>
+          <dd>Arian Ebneyamini, Hoda Azimi, Jules Thibault, F. Handan Tezel</dd>
           <dt>Abstract</dt>
           <dd> In this study, a model for the prediction of the mass transport through mixed matrix membranes (MMMs) for pervaporation and gas separation processes has been introduced. A Resistance-Based (RB) model was used in conjunction with a Finite Difference (FD) model to derive an analytical model for calculating the effective permeability of mixed matrix membranes. The proposed model was validated using experimental data for the pervaporation and gas separation applications using MMMs.</dd>
           <dt>Keywords</dt>
@@ -1463,7 +1463,7 @@ Operator of the province, and 3) Providing pure hydrogen to a fuel cell vehicle 
                 <tr>
                   <td class="time"><h6>9:45 AM - 10:30 AM</h6></td>      
                   <td><span class="section-legend"><small>Keynote Lecture</small></span>
-                      <h5><a href="#Dr. Jules Thibault">TBA</a><br>
+                      <h5><a href="#Dr. Jules Thibault">Water Extraction from Air: Potential and Limitation</a><br>
                       <small>Dr. Jules Thibault, University of Ottawa, Canada</small></h5>
                   </td>
                 </tr>
@@ -1526,17 +1526,19 @@ Operator of the province, and 3) Providing pure hydrogen to a fuel cell vehicle 
 
 
 <!-- Keynote Section Starts-->
-<a id="TBA"></a>
+<a id="Dr. Jules Thibault"></a>
 <div class="section">
 <p class="legend">Keynote Lecture</p>
 <h6 class="info">9:45 AM - 10:30 AM | Room 1 | Session Chair: Dr. Boguslaw Kruczek, University of Ottawa, Canada</h6>
-<h3 class="title">TBA<br>
+<h3 class="title">Water Extraction from Air: Potential and Limitation<br>
 <small><a href="https://engineering.uottawa.ca/chemical/people/thibault-jules" target="_blank">Dr. Jules Thibault, University of Ottawa, Canada</a></small></h3>
 <br>
-<!-- <dl class="dl-horizontal">
+<dl class="dl-horizontal">
+  <dt>Authors</dt>
+  <dd>S. Gh. Etemad, M. Haghshenas Fard, B. Kruczek, E. Jara-Morante, J. Thibault</dd>
   <dt>Abstract</dt>
-  <dd>TBA</dd>
-</dl> -->
+  <dd>Collecting water from atmospheric air by condensation can help to partly alleviate water shortage in different regions of the world. Liquid water can be obtained when a surface exposed to moist air reaches a temperature that is below the dew point temperature. The surface can be cooled using a coolant or naturally by radiating to a clear night sky. This investigation examines the latter. The efficiency of this condensation process depends on numerous parameters such as the emissivity of the condensing surface, wind speed, air relative humidity, and air temperature. Through numerical simulations, the role of these parameters on the collector plate temperature and condensation rate was examined. Results show an interesting role of the wind speed on the resulting condensation rate on the plate. On the one hand, as the wind speed increases, the plate temperature increases, thereby resulting in a decrease in the driving force for condensation. On the other hand, the mass transfer coefficient for the transport of the water vapour from bulk air to the plate increases with the wind speed. The latter effect is stronger than the former one, therefore for the wind speeds for which the plate remains below the dew point temperature, the condensation rate increases with the wind speed. The effects of the relative humidity and the ambient air temperature were also examined to determine how they impact the ability of passive collectors to condense water.</dd>
+</dl>
 </div>
 <div class="top"><a href="#top">top</a></div><!-- End Section Info -->
 
