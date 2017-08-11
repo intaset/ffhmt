@@ -176,6 +176,8 @@
     <div class="container">
       <h2>Program</h2>
       <p>The organizing committees of the two co-located events, FFHMT'17 and EHST'17, have decided to allow registrants of either conference to attend sessions from both events. As a result, we encourage attendees to study the program and attend the sessions which they may find relevant/interesting.</p>
+
+      <p>The Conferences will be held at Ryerson University in the The George Vari Engineering and Computing Centre. Please <a href="http://goo.gl/maps/op3WS" target="_blank">click here</a> for map of the location.</p>
       <br>
 
      
@@ -205,7 +207,8 @@
                 <tbody>
                 <tr class="admin">
                   <td class="time"><h6>3:00 PM - 5:00 PM</h6></td>      
-                  <td colspan="3"><h6>Registrations</h6></td>
+                  <td colspan="3"><h5>Registrations<br>
+                    <small>Registrations will be taking place in the hall next to room ENG-LG-015.</small></h5></td>
                 </tr>
                 </tbody>
             </table>
@@ -224,11 +227,12 @@
                 <tbody>
                 <tr class="admin">
                   <td class="time"><h6>8:00 AM - 9:00 AM</h6></td>      
-                  <td colspan="3"><h6>Registrations</h6></td>
+                  <td colspan="3"><h5>Registrations<br>
+                    <small>Registrations will be taking place in the hall next to room ENG-LG-015.</small></h5></td>
                 </tr>
                 <tr class="admin">
-                  <td colspan="2"><h6>Room 1</h6></td>      
-                  <td colspan="2"><h6>Room 2</h6></td>
+                  <td colspan="2"><h6>Room: ENG-LG-006</h6></td>      
+                  <td colspan="2"><h6>Room: ENG-LG-013</h6></td>
                 </tr>
                 <tr>
                   <td class="time"><h6>9:00 AM - 9:15 AM</h6></td>      
@@ -310,7 +314,7 @@
 <a id="Dr. Dana Grecov"></a>
 <div class="section">
 <p class="legend">Keynote Lecture</p>
-<h6 class="info">9:15 AM - 10:00 AM | Room 1 | Session Chair: Dr. Boguslaw Kruczek, University of Ottawa, Canada</h6>
+<h6 class="info">9:15 AM - 10:00 AM | Room: ENG-LG-006 | Session Chair: Dr. Boguslaw Kruczek, University of Ottawa, Canada</h6>
 <h3 class="title">Novel High Performance Lubricants for Industrial and Biomedical Applications<br>
 <small><a href="http://mech.ubc.ca/dana-grecov/" target="_blank">Dr. Dana Grecov, University of British Columbia, Canada</a></small></h3>
 <br>
@@ -339,7 +343,7 @@ and design tools.</dd>
 <a id="Dr. Michael Fowler"></a>
 <div class="section">
 <p class="legend">Keynote Lecture</p>
-<h6 class="info">10:00 AM - 10:45 AM | Room 1 | Session Chair: Dr. Boguslaw Kruczek, University of Ottawa, Canada</h6>
+<h6 class="info">10:00 AM - 10:45 AM | Room: ENG-LG-006 | Session Chair: Dr. Boguslaw Kruczek, University of Ottawa, Canada</h6>
 <h3 class="title">Power-to-Gas Pathways to a Fossil Free Energy System<br>
 <small><a href="https://uwaterloo.ca/chemical-engineering/people-profiles/michael-fowler" target="_blank">Dr. Michael Fowler, University of Waterloo, Canada
 </a></small></h3>
@@ -366,7 +370,7 @@ Operator of the province, and 3) Providing pure hydrogen to a fuel cell vehicle 
 <a id="CFD I"></a>
 <div class="section">
 <p class="legend">Session</p>
-<h6 class="info">11:05 AM - 12:05 PM | Room 1</h6>
+<h6 class="info">11:05 AM - 12:05 PM | Room: ENG-LG-006</h6>
 <h3 class="title">CFD I<br>
 <small>Session Chair: Dr. Dana Grecov, University of British Columbia, Canada</small></h3>
 <br>
@@ -515,7 +519,7 @@ Operator of the province, and 3) Providing pure hydrogen to a fuel cell vehicle 
 <a id="Energy Storage"></a>
 <div class="section">
 <p class="legend">Session</p>
-<h6 class="info">11:05 AM - 12:05 PM | Room 2</h6>
+<h6 class="info">11:05 AM - 12:05 PM | Room: ENG-LG-013</h6>
 <h3 class="title">Energy Storage<br>
 <small>Session Chair: Dr. Michael Fowler, University of Waterloo, Canada</small></h3>
 <br>
@@ -635,7 +639,7 @@ Operator of the province, and 3) Providing pure hydrogen to a fuel cell vehicle 
 <a id="CFD II"></a>
 <div class="section">
 <p class="legend">Session</p>
-<h6 class="info">1:05 PM - 3:15 PM | Room 1</h6>
+<h6 class="info">1:05 PM - 3:15 PM | Room: ENG-LG-006</h6>
 <h3 class="title">CFD II<br>
 <small>Session Chair: Dr. Hongyi Xu, Fudan University, China</small></h3>
 <br>
@@ -835,7 +839,7 @@ Operator of the province, and 3) Providing pure hydrogen to a fuel cell vehicle 
 <a id="Fluid flow, heat and mass transfer equipment">.</a>
 <div class="section">
 <p class="legend">Session</p>
-<h6 class="info">1:05 PM - 3:10 PM | Room 2</h6>
+<h6 class="info">1:05 PM - 3:10 PM | Room: ENG-LG-013</h6>
 <h3 class="title">Fluid Flow, Heat and Mass Transfer Equipment<br>
 <small>Session Chairs:
 <br>Dr. Weiqun Liu, China University of Mining and Technology, China
@@ -1104,7 +1108,7 @@ Operator of the province, and 3) Providing pure hydrogen to a fuel cell vehicle 
 <a id="CFD III"></a>
 <div class="section">
 <p class="legend">Session</p>
-<h6 class="info">3:35 PM - 5:55 PM | Room 1</h6>
+<h6 class="info">3:35 PM - 5:55 PM | Room: ENG-LG-006</h6>
 <h3 class="title">CFD III<br>
 <small>Session Chairs: Dr. Tong Wang, Shanghai Jiao Tong University, China 
   <br>& Dr. Alexander Liberson, Rochester Institute of Technology, USA</small></h3>
@@ -1297,7 +1301,7 @@ Operator of the province, and 3) Providing pure hydrogen to a fuel cell vehicle 
 <a id="Transport phenomena in porous media">.</a>
 <div class="section">
 <p class="legend">Session</p>
-<h6 class="info">3:35 PM - 4:55 PM | Room 2</h6>
+<h6 class="info">3:35 PM - 4:55 PM | Room: ENG-LG-013</h6>
 <h3 class="title">Transport Phenomena in Porous Media<br>
 <small>Session Chair: Dr. Behnam Mostajeran Goortani, University of Isfahan, Iran</small></h3>
 <br>
@@ -1451,7 +1455,7 @@ Operator of the province, and 3) Providing pure hydrogen to a fuel cell vehicle 
             <table class="table table-bordered">
                 <tbody>
                 <tr class="admin">
-                  <td colspan="2"><h6>Room 1</h6></td>   
+                  <td colspan="2"><h6>Room: ENG-LG-006</h6></td>   
                 </tr>
                 <tr>
                   <td class="time"><h6>9:00 AM - 9:45 AM</h6></td>      
@@ -1512,7 +1516,7 @@ Operator of the province, and 3) Providing pure hydrogen to a fuel cell vehicle 
 <a id="Dr. Aimy Bazylak"></a>
 <div class="section">
 <p class="legend">Keynote Lecture</p>
-<h6 class="info">9:00 AM - 9:45 AM | Room 1 | Session Chair: Dr. Boguslaw Kruczek, University of Ottawa, Canada</h6>
+<h6 class="info">9:00 AM - 9:45 AM | Room: ENG-LG-006 | Session Chair: Dr. Boguslaw Kruczek, University of Ottawa, Canada</h6>
 <h3 class="title">Pore Network Modelling and in Situ Imaging to Investigate Transport in Polymer Electrolyte Membrane Fuel Cells and Electrolyzers<br>
 <small><a href="https://www.mie.utoronto.ca/mie/faculty/abazylak" target="_blank">Dr. Aimy Bazylak, University of Toronto, Canada
 </a></small></h3>
@@ -1529,7 +1533,7 @@ Operator of the province, and 3) Providing pure hydrogen to a fuel cell vehicle 
 <a id="Dr. Jules Thibault"></a>
 <div class="section">
 <p class="legend">Keynote Lecture</p>
-<h6 class="info">9:45 AM - 10:30 AM | Room 1 | Session Chair: Dr. Boguslaw Kruczek, University of Ottawa, Canada</h6>
+<h6 class="info">9:45 AM - 10:30 AM | Room: ENG-LG-006 | Session Chair: Dr. Boguslaw Kruczek, University of Ottawa, Canada</h6>
 <h3 class="title">Water Extraction from Air: Potential and Limitation<br>
 <small><a href="https://engineering.uottawa.ca/chemical/people/thibault-jules" target="_blank">Dr. Jules Thibault, University of Ottawa, Canada</a></small></h3>
 <br>
@@ -1548,7 +1552,7 @@ Operator of the province, and 3) Providing pure hydrogen to a fuel cell vehicle 
 <a id="Poster Session"></a>
 <div class="section">
 <p class="legend">Session</p>
-<h6 class="info">10:30 AM - 11:10 PM | Room 1</h6>
+<h6 class="info">10:30 AM - 11:10 PM | The Poster Session will be taking place in the hall next to room ENG-LG-015</h6>
 <h3 class="title">Poster Session<br>
 <small>Session Chairs: 
   <br>Dr. Alexander S. Liberson, Rochester Institute of Technology, USA
@@ -1950,7 +1954,7 @@ of four perforated plates flow conditioners<br></a>
 <a id="Fluid Flow">.</a>
 <div class="section">
 <p class="legend">Session</p>
-<h6 class="info">11:10 AM - 12:50 PM | Room 1</h6>
+<h6 class="info">11:10 AM - 12:50 PM | Room: ENG-LG-006</h6>
 <h3 class="title">Fluid Flow<br>
 <small>Session Chair: Dr. Aimy Bazylak, University of Toronto, Canada </small></h3>
 <br>
@@ -2094,7 +2098,7 @@ of four perforated plates flow conditioners<br></a>
 <a id="Heat Transfer">.</a>
 <div class="section">
 <p class="legend">Session</p>
-<h6 class="info">2:00 PM - 3:20 PM | Room 1</h6>
+<h6 class="info">2:00 PM - 3:20 PM | Room: ENG-LG-006</h6>
 <h3 class="title">Heat Transfer<br>
 <small>Session Chair: Dr. Mehdi Mortazavi, Western New England University, USA </small></h3>
 <br>
@@ -2234,7 +2238,7 @@ of four perforated plates flow conditioners<br></a>
 <a id="Two and Multiphase Flow and Heat Transfer">.</a>
 <div class="section">
 <p class="legend">Session</p>
-<h6 class="info">3:40 PM - 4:30 PM | Room 1</h6>
+<h6 class="info">3:40 PM - 4:30 PM | Room: ENG-LG-006</h6>
 <h3 class="title">Two and Multiphase Flow and Heat Transfer<br>
 <small>Session Chair:  Dr. Vijay Shankar, Luleå University of Technology, Sweden </small></h3>
 <br>
