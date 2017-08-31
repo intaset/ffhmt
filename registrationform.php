@@ -186,7 +186,7 @@ mail($your_email,$your_subject,$message,$your_headers);
 </div>
         <div class="bg">
           <h1>5<sup>th</sup>  International Conference on Fluid Flow, <br>Heat and Mass Transfer (FFHMT'18)</h1>
-          <p class="subhead">June 12 - 14, 2018 | Toronto, Canada</p>
+          <p class="subhead">June 7 - 9, 2018 | Niagara Falls, Canada</p>
 
           <a href="../papers" class="bg-link">Paper Submissions</a> <p class="dot">&middot;</p> <a href="../dates" class="bg-link">Important Dates</a> <p class="dot">&middot;</p> <a href="../registration" class="bg-link">Registration</a>
 
@@ -214,7 +214,7 @@ mail($your_email,$your_subject,$message,$your_headers);
 
         <div class="bg">
           <h1>5<sup>th</sup> International Conference on Fluid Flow,<br>Heat and Mass Transfer (FFHMT'18)</h1>
-          <p class="subhead">June 12 - 14, 2018 | Toronto, Canada</p>
+          <p class="subhead">June 7 - 9, 2018 | Niagara Falls, Canada</p>
 
           <a href="../papers" class="bg-link">Paper Submissions</a> <p class="dot">&middot;</p> <a href="../dates" class="bg-link">Important Dates</a> <p class="dot">&middot;</p> <a href="../registration" class="bg-link">Registration</a>
 
@@ -245,7 +245,7 @@ mail($your_email,$your_subject,$message,$your_headers);
     <div>
       <h2 class="title">1</h2>
       <p class="bold">FFHMT 2018:</p>
-      <p class="body">FFHMT 2018 will  be held in Toronto, Canada on June 12-14, 2018.</p>
+      <p class="body">FFHMT 2018 will  be held in Niagara Falls, Canada on June 12-14, 2018.</p>
 
      <!--  <p class="bold">FFHMT'18 Workshop</p>
       <p class="body">As per popular request, the organizing committee has decided to extend the FFHMT'18 conference to three days (now June 12-14, 2018). The new high-level schedule is as follows:</p>
