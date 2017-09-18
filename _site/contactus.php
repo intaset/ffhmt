@@ -42,7 +42,7 @@ if (isset($_POST['g-recaptcha-response']) && !empty($_POST['g-recaptcha-response
 <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic|Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
 <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
 <!--[if IE-9]><html lang="en" class="ie9"><![endif]-->
-
+<script src='https://www.google.com/recaptcha/api.js'></script>
 <script src="../js/modernizr.custom.63321.js"></script>
 <script>
   (function() {
@@ -118,7 +118,7 @@ if (isset($_POST['g-recaptcha-response']) && !empty($_POST['g-recaptcha-response
   </div>
 </div>
 </div><br>
-      <!-- <p class="body" style="text-align: center!important;">For more information about the FFHMT'18 Conference, please view the <b><a href="http://ffhmt.com/FFHMT17_EHST17_CFP.pdf" class="body-link">conference flyer</a></b>.</p> -->
+      <p class="body" style="text-align: center!important;">For more information about the FFHMT'18 Conference, please view the <b><a href="http://ffhmt.com/FFHMT18_EHST18_CFP.pdf" class="body-link">conference flyer</a></b>.</p>
       
         </div>
     </div>
@@ -147,7 +147,7 @@ if (isset($_POST['g-recaptcha-response']) && !empty($_POST['g-recaptcha-response
 </div>
 </div><br>
 
-      <!-- <p class="body" style="text-align: center!important; color: #FFF!important;">For more information about the FFHMT'18 Conference, please view the <b><a href="http://ffhmt.com/FFHMT17_EHST17_CFP.pdf" class="body-link">conference flyer</a></b>.</p> -->
+      <p class="body" style="text-align: center!important; color: #FFF!important;">For more information about the FFHMT'18 Conference, please view the <b><a href="http://ffhmt.com/FFHMT18_EHST18_CFP.pdf" class="body-link">conference flyer</a></b>.</p>
 
         </div>
         </div> 
@@ -175,9 +175,9 @@ if (isset($_POST['g-recaptcha-response']) && !empty($_POST['g-recaptcha-response
       
       <p class="body">Registration for the workshop will be 113 CAD (HST included) and separate from the main conferences. Workshop attendees will receive a certificate of participation. For registration, please visit: <a href="../registration" class="body-link">here</a>.</p>
 
-      <p class="body">More information to follow; we greatly appreciate your patience!</p>
+      <p class="body">More information to follow; we greatly appreciate your patience!</p>-->
     </div>          
-    <div> -->
+    <div> 
       <h2 class="title">2</h2>
       <p class="bold">Best Paper Award:</p>
       <p class="body">Two best paper awards will be conferred to author(s) of the papers that receive the highest rank during the peer-review and by the respected session chairs. Please visit <a href="../papers" class="body-link">Paper Submission</a> for more information.</p>
