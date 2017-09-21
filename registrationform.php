@@ -155,7 +155,7 @@ mail($your_email,$your_subject,$message,$your_headers);
     <li><a href="../sponsor">Sponsors</a></li>
     <li><a href="../venue">Venue</a></li>
     <li><a href="../accommodation">Accommodation</a></li>
-    <li><a href="../symposium">Symposiums</a></li>
+    <li><a href="../past-events">Past Events</a></li>
     <li><a href="#contact">Contact Us</a></li>
   </ul>
 </nav>
@@ -166,7 +166,7 @@ mail($your_email,$your_subject,$message,$your_headers);
   <div class="cbp-af-inner">
     <a href="/"><img src="../img/ffhmt.png" class="flex-logo"></a>
       <nav>
-        <a href="/">Home</a><p class="dot">&middot;</p><a href="../papers">Paper Submission</a><p class="dot">&middot;</p><a href="../program">Program</a><p class="dot">&middot;</p><a href="../dates">Important Dates</a><p class="dot">&middot;</p><a href="../registration">Registration</a><p class="dot">&middot;</p><a href="../committee">Committee</a><p class="dot">&middot;</p><a href="../keynote">Keynotes</a><p class="dot">&middot;</p><a href="../sponsor">Sponsors</a><p class="dot">&middot;</p><a href="../venue">Venue</a><p class="dot">&middot;</p><a href="../accommodation">Accommodation</a><p class="dot">&middot;</p><a href="../symposium">Symposiums</a><p class="dot">&middot;</p><a href="#contact">Contact Us</a>
+        <a href="/">Home</a><p class="dot">&middot;</p><a href="../papers">Paper Submission</a><p class="dot">&middot;</p><a href="../program">Program</a><p class="dot">&middot;</p><a href="../dates">Important Dates</a><p class="dot">&middot;</p><a href="../registration">Registration</a><p class="dot">&middot;</p><a href="../committee">Committee</a><p class="dot">&middot;</p><a href="../keynote">Keynotes</a><p class="dot">&middot;</p><a href="../sponsor">Sponsors</a><p class="dot">&middot;</p><a href="../venue">Venue</a><p class="dot">&middot;</p><a href="../accommodation">Accommodation</a><p class="dot">&middot;</p><a href="../past-events">Past Events</a><p class="dot">&middot;</p><a href="#contact">Contact Us</a>
     </nav>
   </div>
 </div>
