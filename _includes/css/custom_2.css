@@ -1,5 +1,3 @@
-/* Custom calendar elements */
-
 .custom-calendar-wrap {
 	position: relative;
 	overflow: hidden;
@@ -36,7 +34,7 @@
 	background: #fff;
 	height: 60px;
 	position: relative;
-	border-top: 5px solid #EA573A;
+	border-top: 5px solid #2A786A;
 	border-bottom: 1px solid #ddd;
 }
 
@@ -47,7 +45,7 @@
 }
 
 .custom-header h2 {
-	color: #EA573A;
+	color: #2A786A;
 	font-weight: 300;
 	font-size: 18px;
 	margin-top: 8px;
@@ -90,7 +88,7 @@
 
 .custom-header nav span:before {
 	font-family: 'icomoon';
-	color: #EA573A;
+	color: #2A786A;
 	position: absolute;
 	text-align: center;
 	width: 100%;
@@ -105,7 +103,7 @@
 }
 
 .custom-header nav span:hover:before {
-	color: #576BB1;
+	color: #C1622F;
 }
 
 .custom-content-reveal {
@@ -132,7 +130,7 @@
 	width: 20px;
 	height: 20px;
 	text-align: center;
-	background: #EA573A;
+	background: #2A786A;
 	box-shadow: 0 1px 1px rgba(0,0,0,0.1);
 	cursor: pointer;
 	line-height: 13px;
@@ -162,7 +160,7 @@
 	padding: 20px;
 	background: #fff;
 	border-bottom: 1px solid #ddd;
-	border-top: 5px solid #EA573A;
+	border-top: 5px solid #2A786A;
 	box-shadow: 0 1px rgba(255,255,255,0.9);
 	margin-bottom: 30px;
 }
@@ -191,7 +189,7 @@
 
 .fc-calendar .fc-head {
 	background: transparent;
-	color: #EA573A;
+	color: #2A786A;
 	font-weight: bold;
 	text-transform: uppercase;
 	font-size: 12px;
@@ -218,7 +216,7 @@
 }
 
 .fc-calendar .fc-row > div.fc-today {
-	background: #EA573A;
+	background: #2A786A;
 	box-shadow: inset 0 -1px 1px rgba(0,0,0,0.1);
 }
 
@@ -233,7 +231,7 @@
 	width: 20px;
 	margin-left: -10px;
 	position: absolute;
-	color: #EA573A;
+	color: #2A786A;
 	font-size: 70px;
 	line-height: 20px;
 	left: 50%;
@@ -245,7 +243,7 @@
 }
 
 .fc-calendar .fc-row > div.fc-content:hover:after{
-	color: #576BB1;
+	color: #C1622F;
 }
 
 .fc-calendar .fc-row > div.fc-today.fc-content:hover:after{

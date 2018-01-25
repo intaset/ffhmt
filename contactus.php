@@ -39,8 +39,9 @@ if (isset($_POST['g-recaptcha-response']) && !empty($_POST['g-recaptcha-response
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <link href="../css/style.css" rel="stylesheet">
-<link href='https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic|Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
-<link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
+<!-- Google Fonts -->
+<link href='https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700|Roboto:400,400i,700" rel="stylesheet"><link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
 <!--[if IE-9]><html lang="en" class="ie9"><![endif]-->
 <script src='https://www.google.com/recaptcha/api.js'></script>
 <script src="../js/modernizr.custom.63321.js"></script>
@@ -63,17 +64,16 @@ if (isset($_POST['g-recaptcha-response']) && !empty($_POST['g-recaptcha-response
   <h1>FFHMT'18</h1>
   <ul>
     <li><a href="/">Home</a></li>
-    <li><a href="../papers">Paper Submissions</a></li>
+    <li><a href="../papers">Submissions</a></li>
     <li><a href="../program">Program</a></li>
     <li><a href="../dates">Important Dates</a></li>
     <li><a href="../registration">Registration</a></li>
     <li><a href="../committee">Committee</a></li>
     <li><a href="../keynote">Keynotes</a></li>
-    <li><a href="../sponsor">Sponsors</a></li>
     <li><a href="../venue">Venue</a></li>
     <li><a href="../accommodation">Accommodation</a></li>
     <li><a href="../past-events">Past Events</a></li>
-    <li><a href="#contact">Contact Us</a></li>
+    <li><a href="#contact">Contact</a></li>
   </ul>
 </nav>
 
@@ -83,7 +83,7 @@ if (isset($_POST['g-recaptcha-response']) && !empty($_POST['g-recaptcha-response
 	<div class="cbp-af-inner">
 		<a href="/"><img src="../img/ffhmt.png" class="flex-logo"></a>
 			<nav>
-				<a href="/">Home</a><p class="dot">&middot;</p><a href="../papers">Paper Submission</a><p class="dot">&middot;</p><a href="../program">Program</a><p class="dot">&middot;</p><a href="../dates">Important Dates</a><p class="dot">&middot;</p><a href="../registration">Registration</a><p class="dot">&middot;</p><a href="../committee">Committee</a><p class="dot">&middot;</p><a href="../keynote">Keynotes</a><p class="dot">&middot;</p><a href="../sponsor">Sponsors</a><p class="dot">&middot;</p><a href="../venue">Venue</a><p class="dot">&middot;</p><a href="../accommodation">Accommodation</a><p class="dot">&middot;</p><a href="../past-events">Past Events</a><p class="dot">&middot;</p><a href="#contact">Contact Us</a>
+				<a href="/">Home</a><p class="dot">&middot;</p><a href="../papers">Submissions</a><p class="dot">&middot;</p><a href="../program">Program</a><p class="dot">&middot;</p><a href="../dates">Important Dates</a><p class="dot">&middot;</p><a href="../registration">Registration</a><p class="dot">&middot;</p><a href="../committee">Committee</a><p class="dot">&middot;</p><a href="../keynote">Keynotes</a><p class="dot">&middot;</p><a href="../venue">Venue</a><p class="dot">&middot;</p><a href="../accommodation">Accommodation</a><p class="dot">&middot;</p><a href="../past-events">Past Events</a><p class="dot">&middot;</p><a href="#contact">Contact</a>
 		</nav>
 	</div>
 </div>
@@ -106,7 +106,7 @@ if (isset($_POST['g-recaptcha-response']) && !empty($_POST['g-recaptcha-response
           <h1>5<sup>th</sup> International Conference on Fluid Flow,<br>Heat and Mass Transfer (FFHMT'18)</h1>
           <p class="subhead">June 7 - 9, 2018 | Niagara Falls, Canada</p>
 
-          <a href="../papers" class="bg-link">Paper Submission</a> <p class="dot">&middot;</p> <a href="../dates" class="bg-link">Important Dates</a> <p class="dot">&middot;</p> <a href="../registration" class="bg-link">Registration</a>
+          <a href="../papers" class="bg-link">Submissions</a> <p class="dot">&middot;</p> <a href="../dates" class="bg-link">Important Dates</a> <p class="dot">&middot;</p> <a href="../registration" class="bg-link">Registration</a>
 
         <div class="searchbox grid">
         <div class="unit unit-s-1 unit-m-3-4 unit-l-3-4">
@@ -117,8 +117,8 @@ if (isset($_POST['g-recaptcha-response']) && !empty($_POST['g-recaptcha-response
         <gcse:searchbox-only resultsUrl="../results"></gcse:searchbox-only>
   </div>
 </div>
-</div><br>
-      <p class="body" style="text-align: center!important;">For more information about the FFHMT'18 Conference, please view the <b><a href="http://ffhmt.com/FFHMT18_EHST18_CFP.pdf" class="body-link">conference flyer</a></b>.</p>
+</div>
+
       
         </div>
     </div>
@@ -134,7 +134,7 @@ if (isset($_POST['g-recaptcha-response']) && !empty($_POST['g-recaptcha-response
           <h1>5<sup>th</sup> International Conference on Fluid Flow,<br>Heat and Mass Transfer (FFHMT'18)</h1>
           <p class="subhead">June 7 - 9, 2018 | Niagara Falls, Canada</p>
 
-          <a href="../papers" class="bg-link">Paper Submission</a> <p class="dot">&middot;</p> <a href="../dates" class="bg-link">Important Dates</a> <p class="dot">&middot;</p> <a href="../registration" class="bg-link">Registration</a>
+          <a href="../papers" class="bg-link">Submissions</a> <p class="dot">&middot;</p> <a href="../dates" class="bg-link">Important Dates</a> <p class="dot">&middot;</p> <a href="../registration" class="bg-link">Registration</a>
 
         <div class="searchbox grid">
         <div class="unit unit-s-1 unit-m-3-4 unit-l-3-4">
@@ -145,9 +145,7 @@ if (isset($_POST['g-recaptcha-response']) && !empty($_POST['g-recaptcha-response
         <gcse:searchbox-only resultsUrl="../results"></gcse:searchbox-only>
   </div>
 </div>
-</div><br>
-
-      <p class="body" style="text-align: center!important; color: #FFF!important;">For more information about the FFHMT'18 Conference, please view the <b><a href="http://ffhmt.com/FFHMT18_EHST18_CFP.pdf" class="body-link">conference flyer</a></b>.</p>
+</div>
 
         </div>
         </div> 
@@ -157,38 +155,7 @@ if (isset($_POST['g-recaptcha-response']) && !empty($_POST['g-recaptcha-response
   <div class="grid main-content">
   <div class="unit unit-s-1 unit-m-1-3-1 unit-l-1-3-1">
     <div class="unit-spacer">
-      <h2>Announcements</h2>
-      <div id="main-slider" class="liquid-slider">
-    <div>
-      <h2 class="title">1</h2>
-      <p class="bold">FFHMT 2018:</p>
-      <p class="body">FFHMT 2018 will  be held in Niagara Falls, Canada on June 7 - 9, 2018.</p>
-
-     <!--  <p class="bold">FFHMT'18 Workshop</p>
-      <p class="body">As per popular request, the organizing committee has decided to extend the FFHMT'18 conference to three days (now June 12-14, 2018). The new high-level schedule is as follows:</p>
-
-      <ul>
-        <li>Day 1: Workshop(s) and Registration</li>
-        <li>Day 2: Main Track Conference Sessions</li>
-        <li>Day 3: Main Track Conference Sessions and Gala dinner or Cruise tour</li>
-      </ul>
       
-      <p class="body">Registration for the workshop will be 113 CAD (HST included) and separate from the main conferences. Workshop attendees will receive a certificate of participation. For registration, please visit: <a href="../registration" class="body-link">here</a>.</p>
-
-      <p class="body">More information to follow; we greatly appreciate your patience!</p>-->
-    </div>          
-    <div> 
-      <h2 class="title">2</h2>
-      <p class="bold">Best Paper Award:</p>
-      <p class="body">Two best paper awards will be conferred to author(s) of the papers that receive the highest rank during the peer-review and by the respected session chairs. Please visit <a href="../papers" class="body-link">Paper Submission</a> for more information.</p>
-    </div>
-    <div>
-      <h2 class="title">3</h2>
-      <p class="bold">Become a Sponsor or an Exhibitor</p>
-      <p class="body">FFHMT attracts a wide range of researchers in the field of fluid flow, heat and mass transfer. As a prominent company in the field of fluid flow, heat and mass transfer, we would like to offer you an exhibit at FFHMT. Please visit <a href="../sponsor" class="body-link">Sponsors</a> for more information.</p>
-    </div>
-  </div>
-
     </div>
   </div>
 
@@ -201,69 +168,6 @@ if (isset($_POST['g-recaptcha-response']) && !empty($_POST['g-recaptcha-response
 
   <div class="unit unit-s-1 unit-m-1-3-1 unit-l-1-3-1">
   <div class="unit-spacer">
-    
-<section class="main">
-
-  <ul class="side-bar-menu" style="padding:0px;">
-    <li><a href="../sponsor">Sponsors &amp; Exhibitors</a></li>
-    <li><a href="../symposium">Symposium &amp; Workshop</a></li>
-  </ul>
-
-</section>
-
-<br><br>
-   
-
-<h2>Upcoming Dates</h2>
-
-<div class="grid events">
-<div class="unit unit-s-1 unit-m-1-4 unit-l-1-4">
-  <div class="date">
-    <div class="past">Dec. 1, 2017</div>
-    Feb. 16, 2018
-  </div>
-</div>
-
-<div class="unit unit-s-1 unit-m-3-4 unit-l-3-4">
-  <div class="unit-spacer">
-    <div class="past past-text">Paper Submission Deadline</div>
-    Extended Paper Submission Deadline
-  </div>
-</div>
-</div>
-
-<div class="grid events">
-<div class="unit unit-s-1 unit-m-1-4 unit-l-1-4">
-  <div class="date">
-    <div class="past">Dec. 22, 2017</div>
-    Mar. 2, 2018
-  </div>
-</div>
-
-<div class="unit unit-s-1 unit-m-3-4 unit-l-3-4">
-  <div class="unit-spacer">
-     <div class="past past-text">Notification to Authors</div>
-     Extended Notification to Authors
-  </div>
-</div>
-</div>
-
-<div class="grid events">
-<div class="unit unit-s-1 unit-m-1-4 unit-l-1-4">
-  <div class="date">
-    <div class="past">Jan. 29, 2018</div>
-    Mar. 16, 2018
-  </div>
-</div>
-
-<div class="unit unit-s-1 unit-m-3-4 unit-l-3-4">
-  <div class="unit-spacer">
-    <div class="past past-text">Early-Bird Registration</div>
-    Extended Early-Bird Registration
-  </div>
-</div>
-</div>
-   
 
   </div>
   </div>
