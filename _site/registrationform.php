@@ -66,9 +66,9 @@ $headers = "From: " . $_REQUEST['email'];
 
 $your_email = $_REQUEST['email'];
 
-$your_subject = "Your Registration Details for FFHMT'18";
+$your_subject = "Your Registration Details for FFHMT'19";
 
-$your_headers = "From: FFHMT'18 <" . $my_email . ">";
+$your_headers = "From: FFHMT'19 <" . $my_email . ">";
 
 if ((($_FILES["file"]["type"] == "image/gif")
 
@@ -114,7 +114,7 @@ mail($your_email,$your_subject,$message,$your_headers);
 <meta name="robots" content="noarchive">
 <meta name="description" content="">
 <meta name="keywords" content="">
-<title>FFHMT'18 - Registration Form Filled!</title>
+<title>FFHMT'19 - Registration Form Filled!</title>
 
 <meta name="handheldfriendly" content="true">
 <meta name="mobileoptimized" content="240">
@@ -144,7 +144,7 @@ mail($your_email,$your_subject,$message,$your_headers);
 
 <body>
 <nav id="slide-menu">
-  <h1>FFHMT'18</h1>
+  <h1>FFHMT'19</h1>
   <ul>
     <li><a href="/">Home</a></li>
     <li><a href="../papers">Submissions</a></li>
@@ -185,8 +185,8 @@ mail($your_email,$your_subject,$message,$your_headers);
   </div>
 </div>
         <div class="bg">
-          <h1>5<sup>th</sup>  International Conference on Fluid Flow, <br>Heat and Mass Transfer (FFHMT'18)</h1>
-          <p class="subhead">June 7 - 9, 2018 | Niagara Falls, Canada</p>
+          <h1>6<sup>th</sup>  International Conference on Fluid Flow, <br>Heat and Mass Transfer (FFHMT'19)</h1>
+          <p class="subhead">June, 2019 | Montreal, Canada</p>
 
           <a href="../papers" class="bg-link">Submissions</a> <p class="dot">&middot;</p> <a href="../dates" class="bg-link">Important Dates</a> <p class="dot">&middot;</p> <a href="../registration" class="bg-link">Registration</a>
 
@@ -212,8 +212,8 @@ mail($your_email,$your_subject,$message,$your_headers);
         </div>
 
         <div class="bg">
-          <h1>5<sup>th</sup> International Conference on Fluid Flow,<br>Heat and Mass Transfer (FFHMT'18)</h1>
-          <p class="subhead">June 7 - 9, 2018 | Niagara Falls, Canada</p>
+          <h1>6<sup>th</sup> International Conference on Fluid Flow,<br>Heat and Mass Transfer (FFHMT'19)</h1>
+          <p class="subhead">June, 2019 | Montreal, Canada</p>
 
           <a href="../papers" class="bg-link">Submissions</a> <p class="dot">&middot;</p> <a href="../dates" class="bg-link">Important Dates</a> <p class="dot">&middot;</p> <a href="../registration" class="bg-link">Registration</a>
 
@@ -253,7 +253,7 @@ mail($your_email,$your_subject,$message,$your_headers);
 
     <p class="body">If there are any problems in the information you have filled out, please write an email to us at <a href="mailto:registration@ffhmt.com" class="body-link">registration@ffhmt.com</a> mentioning the mistakes made. Please note that you SHOULD NOT refill the form.</p>
 
-  <p class="body">We are looking forward to seeing you at FFHMT'18!</p>
+  <p class="body">We are looking forward to seeing you at FFHMT'19!</p>
   </div>
 </div>
 
@@ -280,7 +280,7 @@ mail($your_email,$your_subject,$message,$your_headers);
 
   <div class="unit unit-s-1 unit-m-2-3 unit-l-2-3 contact">
   <div class="unit-spacer">
-  <p class="body">For questions or comments regarding FFHMT'18, please fill out the form below:</p>
+  <p class="body">For questions or comments regarding FFHMT'19, please fill out the form below:</p>
 
     <form action="../contactus.php" method="post" enctype="multipart/form-data" name="ContactForm" class="cf">
   <div class="half left cf">
