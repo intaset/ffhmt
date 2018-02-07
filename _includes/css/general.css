@@ -240,7 +240,12 @@ th {
   margin-top: -114px; /*same height as header*/
   visibility: hidden;
 }
-
+.announcement-text{
+	background-color: #E2E2E2;
+	padding: 10px;
+	margin-top: 0;
+	font-size: 90%;
+}
 .keynotes {
 	border-bottom: #253A73 1px solid;
 	text-align: left;
