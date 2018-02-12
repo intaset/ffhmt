@@ -41,10 +41,10 @@ $message = build_message($_REQUEST);
 
 $message = 'Dear Colleague,
 
-Thank you for registering for FFHMT 2018. If you have requested any official letters, please allow up to 5 business days to receive your documents.
+Thank you for registering for FFHMT 2019. If you have requested any official letters, please allow up to 5 business days to receive your documents.
 
-If you are an author, please make sure to send us your camera ready version and a signed copyright form via email to info@ffhmt.com. You can find the copyright form here: www.ffhmt.com/papers. Please note that failing to do so may result in an unsuccessful process of your registration.
-Thank you for registering for ICGRE 2018. If you have requested any official letters, please allow up to 5 business days to receive your documents.
+If you are an author, please make sure to send us your camera ready version and a signed copyright form via email to info@ffhmt.com. You can find the copyright form here: www.2019.ffhmt.com/papers. Please note that failing to do so may result in an unsuccessful process of your registration.
+Thank you for registering for ICGRE 2019. If you have requested any official letters, please allow up to 5 business days to receive your documents.
 
 You can find your registration details below. If there are any errors in the information you have provided, please write an email to us at registration@ffhmt.com mentioning the correct information. Please note that you SHOULD NOT refill the form.
 

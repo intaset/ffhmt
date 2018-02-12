@@ -1,15 +1,24 @@
 RewriteEngine on
+RewriteBase /
+
+
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}\.html -f
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
 RewriteRule ^([^/]+)/$ $1.html 
 
 # Forces a trailing slash to be added
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_URI} !(\.[a-zA-Z0-9]{1,5}|/)$
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
 RewriteRule (.*)$ /$1/ [R=301,L]
 
-Redirect /index http://ffhmt.com
+Redirect /index http://2019.ffhmt.com
 
 ErrorDocument 404 /NotValid.html
 ErrorDocument 403 /NotValid.html
@@ -20,11 +29,3 @@ order allow,deny
 allow from all
 </Files>
 
-
-
-RewriteEngine On
-AuthName "Restricted Area" 
-AuthType Basic 
-AuthUserFile /home/inter276/public_html/ffhmt.com/2019/.htpasswd 
-AuthGroupFile /dev/null 
-require valid-user
