@@ -1,6 +1,18 @@
 <h2>Registration Form</h2>
     
     <form action="../registrationform.php" name="registration" method="post" enctype="multipart/form-data" class="registration">
+    
+	 <label for="Type_of_Registration">Type of Registration:<span class="asterik">*</span></label>
+     <select name="Type_of_Registration" id="Type_of_Registration">
+                <option selected="" disabled="">--</option>
+                <option>Author</option>
+                <option>Participant</option>
+                <option>Accompanying Person</option>
+                <option>Additional Paper</option>
+                <option>Workshop</option>
+                <option>Closing Ceremony</option>
+                </select>
+                <br>
 
     <label for="title">Title:<span class="asterik">*</span></label>
     <select name="title" id="title">
@@ -447,7 +459,7 @@
     <input type="text" name="Postal_Code" id="Postal_Code" placeholder="K1N 6N5"/>
 
     <label for="telephone">Telephone:</label>
-    <input type="number" name="telephone" id="telephone" placeholder="+1 (613) 555 - 555"/>
+    <input type="text" name="telephone" id="telephone" placeholder="+1 (613) 555 - 555"/>
 
     <label for="email">Email:<span class="asterik">*</span></label>
     <input type="email" name="email" id="email" placeholder="john@doe.com"/>
@@ -514,7 +526,7 @@
     <textarea name="comments" id="comments" cols="35" rows="5" placeholder="Here you can specify your dietary preference, i.e. vegetarian, no pork, etc. You can also specify any details you want for us to include in the paid invoice. For example, if you want us to specify a different affiliation as opposed to the one provided in the form."></textarea>
 
     <label for="Terms_and_Regulations">Terms and Regulations:</label>
-    <textarea name="Terms_and_Regulations" cols="35" rows="9" readonly="" id="Terms_and_Regulations">Please note the following: 1. Prices are in CAD. 2. For students registering at the conference, student identification will be required at the registration desk. 3. Registration fees are not refundable under any circumstances.</textarea>
+    <textarea name="Terms_and_Regulations" cols="35" rows="9" readonly id="Terms_and_Regulations">Please note the following: 1. Prices are in CAD. 2. For students registering at the conference, student identification will be required at the registration desk. 3. Registration fees are not refundable under any circumstances.</textarea>
 
     <label for="Registrant_Agreement">Registrant Agreement:<span class="asterik">*</span></label>
     <input name="Registrant_Agreement" type="checkbox" id="Registrant_Agreement" value="checked"><p class="body">I have Read and Agreed to the Terms and Regulations</p>
