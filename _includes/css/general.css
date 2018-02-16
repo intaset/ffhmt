@@ -749,9 +749,10 @@ display: none;
 }
 
 .past-text {
-	color: #253A73;
+	color: #999;
+	text-decoration: line-through;
+	font-weight: normal;
 }
-
 .events {
 	padding-bottom: 1em;
 }
