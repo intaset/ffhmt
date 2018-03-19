@@ -104,7 +104,7 @@ if (isset($_POST['g-recaptcha-response']) && !empty($_POST['g-recaptcha-response
 
 <div class="bg">
           <h1>6<sup>th</sup> International Conference on Fluid Flow,<br>Heat and Mass Transfer (FFHMT'19)</h1>
-          <p class="subhead">June, 2019 | Montreal, Canada</p>
+          <p class="subhead">June 6 - 8, 2019 | Ottawa, Canada</p>
 
           <a href="../papers" class="bg-link">Submissions</a> <p class="dot">&middot;</p> <a href="../dates" class="bg-link">Important Dates</a> <p class="dot">&middot;</p> <a href="../registration" class="bg-link">Registration</a>
 
@@ -132,7 +132,7 @@ if (isset($_POST['g-recaptcha-response']) && !empty($_POST['g-recaptcha-response
 
         <div class="bg">
           <h1>6<sup>th</sup> International Conference on Fluid Flow,<br>Heat and Mass Transfer (FFHMT'19)</h1>
-          <p class="subhead">June, 2019 | Montreal, Canada</p>
+          <p class="subhead">June 6 - 8, 2019 | Ottawa, Canada</p>
 
           <a href="../papers" class="bg-link">Submissions</a> <p class="dot">&middot;</p> <a href="../dates" class="bg-link">Important Dates</a> <p class="dot">&middot;</p> <a href="../registration" class="bg-link">Registration</a>
 
