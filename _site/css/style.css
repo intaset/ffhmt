@@ -2199,7 +2199,12 @@ footer form {
 .cf:after {
     clear: both;
 }
-
+.announcement-text{
+	background-color: #E2E2E2;
+	padding: 10px;
+	margin-top: 0;
+	font-size: 90%;
+}
 .grid {
   letter-spacing: -0.31em;
   *letter-spacing: normal;
