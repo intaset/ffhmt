@@ -282,6 +282,18 @@ Please visit <a href="http://www.cic.gc.ca/english/visit/" class="body-link">Vis
     <h2>Registration Form</h2>
     
     <form action="../registrationform.php" name="registration" method="post" enctype="multipart/form-data" class="registration">
+    
+     <label for="Type_of_Registration">Type of Registration:<span class="asterik">*</span></label>
+     <select name="Type_of_Registration" id="Type_of_Registration">
+                <option selected="" disabled="">--</option>
+                <option>Author</option>
+                <option>Participant</option>
+                <option>Accompanying Person</option>
+                <option>Additional Paper</option>
+                <option>Workshop</option>
+                <option>Closing Ceremony</option>
+                </select>
+                <br>
 
     <label for="title">Title:<span class="asterik">*</span></label>
     <select name="title" id="title">
@@ -974,7 +986,7 @@ For more information about the conferences, please view the <a class="body-link"
 }).call(this);
 </script>
 
-    <script type="text/javascript">
+<!--    <script type="text/javascript">
 var spryselect1 = new Spry.Widget.ValidationSelect("spryselect1", {isRequired:false});
 
 var sprytextfield1 = new Spry.Widget.ValidationTextField("sprytextfield1");
@@ -1092,5 +1104,5 @@ var sprycheckbox1 = new Spry.Widget.ValidationCheckbox("sprycheckbox1");
         });
     })(jQuery);
 </script>
-</body>
+--></body>
 </html>
